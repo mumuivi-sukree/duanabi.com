@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+/* --- 1. ตั้งค่าฟอนต์อาหรับ (Uthmanic Style) --- */
+.font-serif {
+  font-family: 'Scheherazade New', serif !important;
+  font-weight: 400 !important; 
+  line-height: 2.2 !important; 
+  font-feature-settings: "cv01", "cv02", "cv03", "ss01";
+}
+
+/* --- 2. เลเยอร์จัดวางดุอาอ์ (RTL) --- */
+.dua-container-force {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  flex-direction: row !important; 
+  justify-content: center !important; 
+  direction: rtl !important; 
+  gap: 1.5rem !important; 
+  width: 100% !important;
+  margin: 2rem 0 !important;
+}
+
+.dua-container-force > * {
+  flex: 0 0 auto !important;
+  direction: rtl !important; 
+  margin: 0 !important;
+}
+
+/* --- 3. สีสลับของการ์ด (ขาว-เทาจาง) --- */
+.dua-container-force > *:nth-child(even) {
+  background-color: #f8fafc !important; 
+  border-radius: 12px !important;
+}
+
+.dua-container-force > *:nth-child(odd) {
+  background-color: #ffffff !important;
+  border-radius: 12px !important;
+}
+
+/* --- 4. ส่วนจัดการ Mobile UI --- */
+@media (max-width: 50rem) {
+  .site-header :where(.search-container, .mobile-menu-toggle) {
+    display: none !important;
+  }
+
+  body {
+    padding-bottom: 80px !important;
+  }
+
+  .sl-container:has(footer) {
+    display: block !important;
+  }
+
+  footer {
+    display: block !important;
+  } 
+}
+/* --- บังคับ Hero ชิดซ้ายทุกหน้าจอ (PC & Mobile) --- */
+
+/* 1. คุมกล่องใหญ่ของ Hero */
+.hero {
+  display: grid !important;
+  text-align: left !important;
+  justify-items: start !important; /* บังคับให้วัตถุใน Grid ชิดซ้าย */
+}
+
+/* 2. คุมส่วนของข้อความ (Title + Tagline) */
+.hero .copy {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: flex-start !important; /* ชิดซ้าย */
+  text-align: left !important;
+}
+
+/* 3. คุมเฉพาะ Tagline (ข้อความหะดีษ) */
+.hero .tagline {
+  text-align: left !important;
+  white-space: pre-line !important; /* รักษาการขึ้นบรรทัดใหม่ */
+  width: 100% !important; /* ขยายเต็มเพื่อไม่ให้บีบข้อความ */
+}
+
+/* 4. คุมปุ่มกด (Actions) */
+.hero .actions {
+  justify-content: flex-start !important; /* ปุ่มชิดซ้าย */
+  width: 100% !important;
+}
+
+/* 5. คุมรูปภาพในโหมดมือถือ */
+.hero img, 
+.hero .hero-image {
+  margin-inline: 0 !important; /* ป้องกันการจัดกลางอัตโนมัติ */
+  justify-content: flex-start !important;
+}
+
+/* 6. แก้ไขช่องว่างสำหรับหน้าจอมือถือโดยเฉพาะ */
+@media (max-width: 50rem) {
+  .hero {
+    /* ปรับให้รูปกับข้อความเรียงกันแบบชิดซ้าย ไม่กระโดดไปมา */
+    grid-template-areas: "copy" "img" !important; 
+    gap: 1.5rem !important;
+  }
+}

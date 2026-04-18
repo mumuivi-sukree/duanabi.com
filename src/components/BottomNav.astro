@@ -1,0 +1,65 @@
+---
+// ไม่ต้องใช้ Props ในที่นี้
+---
+
+<nav class="mobile-bottom-nav md:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 z-[100] flex justify-around items-center py-3 pb-safe shadow-[0_-4px_10px_rgba(0,0,0,0.05)]">
+  
+  <a href="/" class="nav-item">
+    <span class="icon">🏠</span>
+    <span class="label">หน้าแรก</span>
+  </a>
+
+  <button id="bottom-search-trigger" class="nav-item">
+    <span class="icon">🔍</span>
+    <span class="label">ค้นหา</span>
+  </button>
+
+  <button id="bottom-menu-trigger" class="nav-item">
+    <span class="icon">☰</span>
+    <span class="label">สารบัญ</span>
+  </button>
+
+</nav>
+
+<script>
+  // Script สำหรับเชื่อมโยงปุ่มล่าง ไปหาปุ่มจริงที่ถูกซ่อนไว้ข้างบน
+  const setupTriggers = () => {
+    // 1. จัดการปุ่มเมนู (Sidebar)
+    const bottomMenuBtn = document.getElementById('bottom-menu-trigger');
+    const realMenuBtn = document.querySelector('button[aria-controls="starlight__sidebar"]') as HTMLButtonElement;
+
+    if (bottomMenuBtn && realMenuBtn) {
+      bottomMenuBtn.addEventListener('click', () => realMenuBtn.click());
+    }
+
+    // 2. จัดการปุ่มค้นหา
+    const bottomSearchBtn = document.getElementById('bottom-search-trigger');
+    const realSearchBtn = document.querySelector('.search-container button') as HTMLButtonElement;
+
+    if (bottomSearchBtn && realSearchBtn) {
+      bottomSearchBtn.addEventListener('click', () => realSearchBtn.click());
+    }
+  };
+
+  // ทำงานทันทีที่โหลดหน้า และรองรับการเปลี่ยนหน้าของ Astro (View Transitions)
+  setupTriggers();
+  document.addEventListener('astro:after-swap', setupTriggers);
+</script>
+
+<style>
+  /* 1. เพิ่มบรรทัดนี้เพื่อให้ Tailwind v4 รู้จักคลาส slate-600, flex, ฯลฯ */
+  @reference "tailwindcss"; 
+
+  .nav-item {
+    @apply flex flex-col items-center justify-center text-slate-600 no-underline bg-transparent border-none p-0 min-w-[64px] cursor-pointer;
+  }
+  .icon {
+    @apply text-xl mb-1;
+  }
+  .label {
+    @apply text-[10px] font-bold text-slate-500;
+  }
+  .pb-safe {
+    padding-bottom: calc(0.5rem + env(safe-area-inset-bottom));
+  }
+</style>
