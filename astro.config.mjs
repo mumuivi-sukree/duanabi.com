@@ -32,6 +32,22 @@ export default defineConfig({
               },
               // ถ้าในอนาคตนึกหมวดใหม่ได้ ก็แค่มาเพิ่มบรรทัดใหม่ตรงนี้
           ],
+		  head: [
+					// ตั้งค่ารูปภาพสำหรับแชร์ (แนะนำขนาด 1200x630 px)
+					{
+					tag: 'meta',
+					attrs: { property: 'og:image', content: 'https://duanabi.com/dua1.webp' },
+					},
+					{
+					tag: 'meta',
+					attrs: { property: 'og:title', content: 'Dua Nabi ดุอาอฺ ฉบับเข้าใจง่าย' },
+					},
+					{
+					tag: 'meta',
+					attrs: { property: 'og:description', content: 'รวมบทดุอาอ์จากอัลกุรอานและซุนนะฮ์ เรียนรู้ดุอาอ์พร้อมคำแปลและคำอธิบายที่ถูกต้อง' },
+					},
+			],
+
           customCss: ['./src/styles/custom.css'],
           components: {
               Footer: './src/components/BottomNav.astro',
