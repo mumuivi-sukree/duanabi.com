@@ -9,9 +9,13 @@ export default defineConfig({
   integrations: [
       starlight({
           title: 'duanabi.com',
+		  logo: {
+	        src: './src/assets/duanabi-logo.png', // ถ้ามีโลโก้หน้าเว็บ
+    	  },
+      	  favicon: './src/assets/duanabi-fav.png', // ระบุตำแหน่ง favicon ที่นี่
           locales: {
         	root: { label: 'ไทย', lang: 'th' }
-  },	
+  	},	
 //			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
           sidebar: [
               {
