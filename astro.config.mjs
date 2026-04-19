@@ -15,8 +15,11 @@ export default defineConfig({
       	  favicon: './src/assets/duanabi-fav.png', // ระบุตำแหน่ง favicon ที่นี่
           locales: {
         	root: { label: 'ไทย', lang: 'th' }
-  	},	
-//			social: [{ icon: 'github', label: 'GitHub', href: 'https://github.com/withastro/starlight' }],
+  		  },	
+		  social: [
+			{ icon: 'email', label: 'Email', href: 'mailto:mumuivi@gmail.com' },
+			{ icon: 'facebook', label: 'Facebook', href: 'https://www.facebook.com/groups/duanabi' }
+		  ],
           sidebar: [
               {
                   label: 'หมวดหมู่ดุอาอ์',
