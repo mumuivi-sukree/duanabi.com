@@ -2,7 +2,7 @@
 // src/components/DuaSection.astro
 interface Props {
   title: string;
-  content: string; // รับข้อมูลผ่านตัวแปรนี้
+  content: string; 
   bgColor?: string; 
   isArabic?: boolean;
 }
@@ -13,6 +13,10 @@ const { title, content, bgColor = "bg-white", isArabic = false } = Astro.props;
     {title}
   </h4>
   <div class={`${isArabic ? 'text-4xl md:text-5xl leading-[2.5] font-serif text-center py-4' : 'text-lg text-slate-700 font-medium'}`} dir={isArabic ? 'rtl' : 'ltr'}>
-    {content}
+    
+    {/* แก้จาก mb-4 เป็น mb-2 เพื่อให้ช่องว่างแคบลงครับ */}
+{content.split('\n').map((line) => (
+  <p style="margin-bottom: 4px !important; margin-top: 0 !important;">{line}</p>
+))}    
   </div>
 </section>
