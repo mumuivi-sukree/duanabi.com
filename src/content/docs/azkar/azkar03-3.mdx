@@ -4,6 +4,12 @@ tableOfContents: false
 ---
 
 import DuaPageMaster from '../../../components/DuaPageMaster.astro';
+import DuaPagination from '../../../components/DuaPagination.astro';
 import duaData from '../../../data/azkar/azkar03-3.json';
 
 <DuaPageMaster data={duaData} />
+
+<DuaPagination 
+  prevUrl="/azkar/azkar03-2" 
+  nextUrl="/azkar/azkar03-4" 
+/>

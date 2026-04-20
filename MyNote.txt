@@ -1,0 +1,1 @@
+ffmpeg -ss 01:42:33 -to 01:43:25 -i input_file -ac 1 -b:a 64k output.mp3
