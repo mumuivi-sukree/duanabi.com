@@ -1,9 +1,15 @@
 ---
-title: 3-2-อัลบากอเราะห์256
+title: อัซการฺ 3-2-อัลบากอเราะห์256
 tableOfContents: false
 ---
 
 import DuaPageMaster from '../../../components/DuaPageMaster.astro';
+import DuaPagination from '../../../components/DuaPagination.astro';
 import duaData from '../../../data/azkar/azkar03-2.json';
 
 <DuaPageMaster data={duaData} />
+
+<DuaPagination 
+  prevUrl="/azkar/azkar03-1" 
+  nextUrl="/azkar/azkar03-3" 
+/>
