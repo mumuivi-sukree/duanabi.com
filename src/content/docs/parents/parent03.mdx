@@ -1,0 +1,16 @@
+---
+title: ดุอาอ์ให้พ่อแม่ นูห์ อายะฮ์ที่ 28
+tableOfContents: false
+---
+
+import DuaPageMaster from '../../../components/DuaPageMaster.astro';
+import DuaPagination from '../../../components/DuaPagination.astro';
+import duaData from '../../../data/parents/parent03.json';
+
+<DuaPageMaster data={duaData} />
+
+{/* 👈 วางปุ่มนำทางไว้ด้านล่างสุด พร้อมระบุลิงก์ */}
+<DuaPagination 
+  prevUrl="/parents/parent02" 
+  nextUrl="/parents/parent04" 
+/>

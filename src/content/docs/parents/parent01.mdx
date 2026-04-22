@@ -1,0 +1,16 @@
+---
+title: ดุอาอ์ให้พ่อแม่ อัลอิสรออ์ อายะฮ์ที่ 24
+tableOfContents: false
+---
+
+import DuaPageMaster from '../../../components/DuaPageMaster.astro';
+import DuaPagination from '../../../components/DuaPagination.astro';
+import duaData from '../../../data/parents/parent01.json';
+
+<DuaPageMaster data={duaData} />
+
+{/* 👈 วางปุ่มนำทางไว้ด้านล่างสุด พร้อมระบุลิงก์ */}
+<DuaPagination 
+  prevUrl="" 
+  nextUrl="/parents/parent02" 
+/>
