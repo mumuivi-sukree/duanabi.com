@@ -27,7 +27,7 @@ export default defineConfig({
               label: 'หมวดหมู่ดุอาอ์',
               items: [
               { label: 'อัซการฺ ยามเช้า-เย็น', autogenerate: { directory: 'azkar' } },
-              { label: 'วิริตหลังละหมาด', autogenerate: { directory: 'wirid' } },
+              { label: 'ครอบครัว', autogenerate: { directory: 'family' } },
               { label: 'ดุอาอ์ให้พ่อแม่', autogenerate: { directory: 'parents' } },
               { label: 'ดุอาอ์ให้ลูก', autogenerate: { directory: 'children' } },
               ],
