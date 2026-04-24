@@ -1,0 +1,16 @@
+---
+title: ขออัลลอฮฺทรงตัดสินด้วยความจริงและขอความช่วยเหลือ อัลอัมบิยา อายะฮ์ที่ 112
+tableOfContents: false
+---
+
+import DuaPageMaster from '../../../components/DuaPageMaster.astro';
+import DuaPagination from '../../../components/DuaPagination.astro';
+import duaData from '../../../data/relief/relief02.json';
+
+<DuaPageMaster data={duaData} />
+
+{/* 👈 วางปุ่มนำทางไว้ด้านล่างสุด พร้อมระบุลิงก์ */}
+<DuaPagination 
+  prevUrl="/relief/relief01" 
+  nextUrl="/relief/relief03" 
+/>
