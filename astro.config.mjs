@@ -26,10 +26,11 @@ export default defineConfig({
           {
               label: 'หมวดหมู่ดุอาอ์',
               items: [
-              { label: 'อัซการฺ ยามเช้า-เย็น', autogenerate: { directory: 'azkar' } },
-              { label: 'ครอบครัว', autogenerate: { directory: 'family' } },
               { label: 'ดุอาอ์ให้พ่อแม่', autogenerate: { directory: 'parents' } },
               { label: 'ดุอาอ์ให้ลูก', autogenerate: { directory: 'children' } },
+              { label: 'ครอบครัว', autogenerate: { directory: 'family' } },
+              { label: 'พ้นความทุกข์ยาก', autogenerate: { directory: 'relief' } },
+              { label: 'อัซการฺ ยามเช้า-เย็น', autogenerate: { directory: 'azkar' } },
               ],
           },
           // ถ้าในอนาคตนึกหมวดใหม่ได้ ก็แค่มาเพิ่มบรรทัดใหม่ตรงนี้
