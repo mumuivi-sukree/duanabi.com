@@ -28,8 +28,9 @@ export default defineConfig({
               items: [
               { label: 'ดุอาอ์ให้พ่อแม่', autogenerate: { directory: 'parents' } },
               { label: 'ดุอาอ์ให้ลูก', autogenerate: { directory: 'children' } },
-              { label: 'ครอบครัว', autogenerate: { directory: 'family' } },
-              { label: 'พ้นความทุกข์ยาก', autogenerate: { directory: 'relief' } },
+              { label: 'ดุอาอ์ให้ครอบครัว', autogenerate: { directory: 'family' } },
+              { label: 'ดุอาอ์ให้พ้นความทุกข์ยาก', autogenerate: { directory: 'relief' } },
+              { label: 'ดุอาอ์ความดี', autogenerate: { directory: 'success' } },
               { label: 'อัซการฺ ยามเช้า-เย็น', autogenerate: { directory: 'azkar' } },
               ],
           },
