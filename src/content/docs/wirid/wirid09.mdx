@@ -1,0 +1,16 @@
+---
+title: วิริต 9 ขุมทรัพย์แห่งสวรรค์
+tableOfContents: false
+---
+
+import DuaPageMaster from '../../../components/DuaPageMaster.astro';
+import DuaPagination from '../../../components/DuaPagination.astro';
+import duaData from '../../../data/wirid/wirid09.json';
+
+<DuaPageMaster data={duaData} />
+
+{/* 👈 วางปุ่มนำทางไว้ด้านล่างสุด พร้อมระบุลิงก์ */}
+<DuaPagination 
+  prevUrl="/wirid/wirid08-4" 
+  nextUrl="/wirid/wirid09"
+/>

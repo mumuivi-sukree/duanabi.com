@@ -1,0 +1,16 @@
+---
+title: วิริต 10 ดุอาอ์ขอความรู้ที่เป็นประโยชน์ ริซกีที่กว้างขวาง และการงานที่ถูกตอบรับ
+tableOfContents: false
+---
+
+import DuaPageMaster from '../../../components/DuaPageMaster.astro';
+import DuaPagination from '../../../components/DuaPagination.astro';
+import duaData from '../../../data/wirid/wirid10.json';
+
+<DuaPageMaster data={duaData} />
+
+{/* 👈 วางปุ่มนำทางไว้ด้านล่างสุด พร้อมระบุลิงก์ */}
+<DuaPagination 
+  prevUrl="/wirid/wirid09" 
+  nextUrl=""
+/>
