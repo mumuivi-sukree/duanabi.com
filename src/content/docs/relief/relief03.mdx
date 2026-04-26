@@ -1,0 +1,16 @@
+---
+title: ดุอาอ์ขอความอดทน ความหนักแน่น และชัยชนะ อัลบากอเราะห์-250
+tableOfContents: false
+---
+
+import DuaPageMaster from '../../../components/DuaPageMaster.astro';
+import DuaPagination from '../../../components/DuaPagination.astro';
+import duaData from '../../../data/relief/relief03.json';
+
+<DuaPageMaster data={duaData} />
+
+{/* 👈 วางปุ่มนำทางไว้ด้านล่างสุด พร้อมระบุลิงก์ */}
+<DuaPagination 
+  prevUrl="/relief/relief02" 
+  nextUrl="/relief/relief04" 
+/>
