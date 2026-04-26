@@ -25,7 +25,7 @@ const { data } = Astro.props;
 {/* ส่วนที่เพิ่มใหม่: เครื่องเล่นเสียง */}
 {data.audio_url && (
   <div class="audio-player-container my-6 p-4 bg-white rounded-xl border border-slate-200 shadow-sm">
-    <p class="text-sm font-medium text-slate-500 mb-3 font-sans">ฟังเสียงอ่าน:</p>
+    <p class="text-sm font-medium text-blue-800 mb-3 font-sans">ฟังเสียงอ่าน:</p>
     <audio controls class="w-full h-10 outline-none">
       <source src={data.audio_url} type="audio/mpeg" />
       เบราว์เซอร์ของคุณไม่รองรับการเล่นไฟล์เสียง
@@ -38,10 +38,11 @@ const { data } = Astro.props;
   <DuaSection title="ความหมายโดยรวม" bgColor="bg-sky-50" content={data.fullTranslation} />
 )}
 
-{/* ส่วนที่ 3: คำต่อคำ (DuaGrid รับ data.words ไปจัดการเอง) */}
-<DuaGrid duaData={data.words} />
-
 {/* ส่วนที่ 4: คำอธิบาย */}
 {data.explanation && (
   <DuaSection title="คำอธิบายเพิ่มเติม" bgColor="bg-slate-100" content={data.explanation} />
 )}
+
+{/* ส่วนที่ 3: คำต่อคำ (DuaGrid รับ data.words ไปจัดการเอง) */}
+<DuaGrid duaData={data.words} />
+

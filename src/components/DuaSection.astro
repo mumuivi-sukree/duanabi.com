@@ -9,10 +9,10 @@ interface Props {
 const { title, content, bgColor = "bg-white", isArabic = false } = Astro.props;
 ---
 <section class={`${bgColor} p-6 md:p-8 rounded-2xl my-4 border border-slate-100 shadow-sm`}>
-  <h4 class="text-slate-400 text-xs font-bold uppercase tracking-wider mb-4 mt-0 opacity-70">
+  <h4 class="!text-blue-800 text-xs font-bold uppercase tracking-wider mb-4 mt-0 ">
     {title}
   </h4>
-  <div class={`${isArabic ? 'text-4xl md:text-5xl leading-[2.5] font-serif text-center py-4' : 'text-lg text-slate-700 font-medium'}`} dir={isArabic ? 'rtl' : 'ltr'}>
+  <div class={`${isArabic ? '!text-slate-800 text-3xl md:text-5xl leading-[2.5] font-serif text-center py-4' : 'text-lg !text-slate-700 font-medium'}`} dir={isArabic ? 'rtl' : 'ltr'}>
     
     {/* แก้จาก mb-4 เป็น mb-2 เพื่อให้ช่องว่างแคบลงครับ */}
     {content.split('\n').map((line) => (
