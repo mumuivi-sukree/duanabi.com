@@ -31,6 +31,7 @@ export default defineConfig({
               { label: 'ดุอาอ์ให้ลูก', autogenerate: { directory: 'children' } },
               { label: 'ดุอาอ์ให้ครอบครัว', autogenerate: { directory: 'family' } },
               { label: 'ดุอาอ์เมื่อประสบความทุกข์ยาก', autogenerate: { directory: 'relief' } },
+              { label: 'ดุอาอ์อภัยโทษ', autogenerate: { directory: 'forgiveness' } },
               { label: 'ดุอาอ์ขอความดี', autogenerate: { directory: 'success' } },
               { label: 'วิริต บทรำลึกถึงอัลลอฮ์หลังละหมาด', autogenerate: { directory: 'wirid' } },
               { label: 'อัซการฺ บทรำลึกถึงอัลลอฮ์ยามเช้า-เย็น', autogenerate: { directory: 'azkar' } },
