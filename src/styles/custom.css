@@ -101,3 +101,34 @@
     gap: 1.5rem !important;
   }
 }
+
+/* --- 5. จัดระเบียบเมนูด้านข้าง (Sidebar) --- */
+
+/* เพิ่มเส้นใต้และระยะห่างให้แต่ละลิงก์ */
+.sidebar-content a {
+  border-bottom: 1px solid rgba(226, 232, 240, 0.8) !important; /* เส้นคั่นบางๆ */
+  padding-top: 0.35rem !important;
+  padding-bottom: 0.35rem !important;
+  line-height: 1.5 !important;
+  display: flex !important;
+  align-items: flex-start !important;
+}
+
+/* เพิ่มสัญลักษณ์จุด (Bullet) ไว้หน้าชื่อดุอาอ์ */
+.sidebar-content a::before {
+  content: "•"; 
+  margin-right: 0.6rem;
+  color: #1e40af !important; /* สีน้ำเงินเดียวกับหัวข้อที่พี่ชอบ */
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+/* ปรับสีเส้นคั่นสำหรับโหมดมืด */
+[data-theme="dark"] .sidebar-content a {
+  border-bottom-color: rgba(51, 65, 85, 0.5) !important;
+}
+
+/* ลบเส้นใต้ของรายการสุดท้ายในแต่ละกลุ่มเพื่อความสวยงาม */
+.sidebar-content li:last-child a {
+  border-bottom: none !important;
+}
