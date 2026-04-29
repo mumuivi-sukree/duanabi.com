@@ -8,8 +8,8 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://duanabi.com',
-  trailingSlash: 'always'
+  site: 'https://duanabi.com/',
+  trailingSlash: 'always',
   integrations: [starlight({
       title: 'duanabi.com',
 		  logo: {
