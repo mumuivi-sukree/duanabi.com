@@ -1,0 +1,23 @@
+---
+// src/components/DuaSection.astro
+interface Props {
+  title: string;
+  content: string; 
+  bgColor?: string; 
+  isArabic?: boolean;
+}
+const { title, content, bgColor = "bg-white", isArabic = false } = Astro.props;
+---
+<section class={`${bgColor} p-6 md:p-8 rounded-2xl my-4 border border-slate-100 shadow-sm`}>
+  <h4 class="!text-blue-800 text-xs font-bold uppercase tracking-wider mb-4 mt-0 ">
+    {title}
+  </h4>
+  <div class={`${isArabic ? '!text-slate-800 text-3xl md:text-5xl leading-[2.5] font-serif text-center py-4' : 'text-lg !text-slate-700 font-medium'}`} dir={isArabic ? 'rtl' : 'ltr'}>
+    
+    {/* แก้จาก mb-4 เป็น mb-2 เพื่อให้ช่องว่างแคบลงครับ */}
+    {content.split('\n').map((line) => (
+/* 🛠️ เปลี่ยนมาใช้ set:html เพื่อให้ Tag HTML ในไฟล์ .ts ทำงานได้ */
+      <p style="margin-bottom: 4px !important; margin-top: 0 !important;" set:html={line} />      
+    ))}    
+  </div>
+</section>

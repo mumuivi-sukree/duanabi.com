@@ -1,0 +1,48 @@
+---
+// src/components/DuaPageMaster.astro
+import DuaSection from './DuaSection-ts.astro';
+import DuaGrid from './DuaGrid.astro';
+
+interface Props {
+  data: {
+    fullArabic: string;
+    fullTranslation: string;
+    explanation: string;
+    words: Array<{ ar: string; read: string; mean: string; }>;
+    audio_url?: string; // 1. เพิ่มฟิลด์สำหรับลิงก์เสียง (Optional)
+  }
+}
+
+const { data } = Astro.props;
+---
+
+
+{/* ส่วนที่ 1: อาหรับเต็มบท */}
+{data.fullArabic && (
+  <DuaSection title="บทดุอาอ์เต็ม" bgColor="bg-emerald-50" isArabic={true} content={data.fullArabic} />
+)}
+
+{/* ส่วนที่เพิ่มใหม่: เครื่องเล่นเสียง */}
+{data.audio_url && (
+  <div class="audio-player-container my-6 p-4 bg-white rounded-xl border border-slate-200 shadow-sm">
+    <p class="text-sm font-medium text-blue-800 mb-3 font-sans">ฟังเสียงอ่าน:</p>
+    <audio controls class="w-full h-10 outline-none">
+      <source src={data.audio_url} type="audio/mpeg" />
+      เบราว์เซอร์ของคุณไม่รองรับการเล่นไฟล์เสียง
+    </audio>
+  </div>
+)}
+
+{/* ส่วนที่ 2: ความหมายไทย */}
+{data.fullTranslation && (
+  <DuaSection title="ความหมายโดยรวม" bgColor="bg-sky-50" content={data.fullTranslation} />
+)}
+
+{/* ส่วนที่ 4: คำอธิบาย */}
+{data.explanation && (
+  <DuaSection title="คำอธิบายเพิ่มเติม" bgColor="bg-slate-100" content={data.explanation} />
+)}
+
+{/* ส่วนที่ 3: คำต่อคำ (DuaGrid รับ data.words ไปจัดการเอง) */}
+<DuaGrid duaData={data.words} />
+
