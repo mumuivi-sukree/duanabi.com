@@ -132,3 +132,21 @@
 .sidebar-content li:last-child a {
   border-bottom: none !important;
 }
+
+/* สำหรับช่วงเช้า ☀️ */
+.morning {
+  @apply text-orange-500 font-bold;
+}
+/* ทำให้ Emoji ใน span ตัวเล็กลงและจัดตำแหน่ง */
+.morning span {
+  @apply text-[0.3em] inline-block relative -top-[0.15em] mx-1;
+}
+
+/* สำหรับช่วงเย็น 🌙 */
+.evening {
+  @apply text-blue-600 font-bold;
+}
+/* ทำให้ Emoji ใน span ตัวเล็กลงและจัดตำแหน่ง */
+.evening span {
+  @apply text-[0.3em] inline-block relative -top-[0.15em] mx-1;
+}
