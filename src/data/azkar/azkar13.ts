@@ -1,21 +1,36 @@
 export const duaData = {
   "title": "ดุอาอ์ขอความครบถ้วนของนิอฺมัต(ยามเช้า-เย็น)",
 
-"fullArabic": `اللَّهُمَّ إِنِّي 
-<span class="morning"><span>☀️</span> أَصْبَحْتُ <span>☀️</span></span> \
-<span class="evening"><span>🌙</span> أَمْسَيْتُ <span>🌙</span></span> 
-مِنْكَ فِي نِعْمَةٍ وَعَافِيَةٍ وَسِتْرٍ، فَأَتِمَّ نِعْمَتَكَ عَلَيَّ وَعَافِيَتَكَ وَسِتْرَكَ فِي الدُّنْيَا وَالْآخِرَةِ
-(<span class="!text-3xl"> (อ่าน 3 ครั้ง) </span><span class="morning"><span>☀️</span><span class="!text-3xl"> ยามเช้า </span><span>☀️</span></span> \
-<span class="evening"><span>🌙</span><span class="!text-3xl"> ยามเย็น </span><span>🌙</span></span>)`,
+"fullArabic": `
+<span class="text-emerald-700">اللَّهُمَّ إِنِّي</span> \ 
+<span class="morning"><span>☀️</span> أَصْبَحْتُ <span>☀️</span></span> 
+(<span class="evening"><span>🌙</span> أَمْسَيْتُ <span>🌙</span></span>) 
+<span class="text-emerald-700">مِنْكَ فِي نِعْمَةٍ وَعَافِيَةٍ وَسِتْرٍ، </span> \
+<span class="text-rose-600">فَأَتِمَّ نِعْمَتَكَ عَلَيَّ</span> \
+<span class="text-fuchsia-800">وَعَافِيَتَكَ</span> \
+<span class="text-yellow-500">وَسِتْرَكَ</span> \
+<span class="text-stone-600">فِي الدُّنْيَا وَالْآخِرَةِ</span> \
+
+<span class="text-right text-lg text-slate-500 mt-2">คำอ่าน: \
+<span class="morning"><span>☀️</span>ตอนเช้า<span>☀️</span></span> \
+(<span class="evening"><span>🌙</span>ตอนเย็น<span>🌙</span></span>)\
+</span>`,
 
 
-  "fullTranslation": `\โอ้อัลลอฮฺ แท้จริงฉันได้เข้าสู่ <span class="morning"><span>☀️</span> ยามเช้า <span>☀️</span></span> \
-(<span class="evening"><span>🌙</span> ยามเย็น <span>🌙</span></span>) จากพระองค์ท่านในความโปรดปราน มีสุขภาพที่ดี และการปกปิด (ข้อบกพร่อง) \
-ดังนั้นโปรดทรงให้ความโปรดปรานของพระองค์ สุขภาพที่ดีของพระองค์ และการปกปิดของพระองค์นั้นครบถ้วนสมบูรณ์แก่ฉัน ทั้งในโลกนี้และโลกหน้า
-<span class="text-right text-lg text-slate-500 mt-2">[ วิธีอ่าน:(อ่าน 3 ครั้ง) \
+  "fullTranslation": `\
+<span class="text-emerald-700">โอ้อัลลอฮฺ แท้จริงฉันได้เข้าสู่</span>\
 <span class="morning"><span>☀️</span>ยามเช้า<span>☀️</span></span> \
-<span class="evening"><span>🌙</span>ยามเย็น<span>🌙</span></span>\
-]</span>`,
+(<span class="evening"><span>🌙</span>ยามเย็น<span>🌙</span></span>) \ 
+<span class="text-emerald-700">จากพระองค์ท่านในความโปรดปราน มีสุขภาพที่ดี และการปกปิด(ข้อบกพร่อง)</span> \
+<span class="text-rose-600">ดังนั้นโปรดทรงให้ความโปรดปรานของพระองค์</span> \
+<span class="text-fuchsia-800">สุขภาพที่ดีของพระองค์</span> \
+<span class="text-yellow-500">และการปกปิดของพระองค์นั้นครบถ้วนสมบูรณ์แก่ฉัน</span> \
+<span class="text-stone-600">ทั้งในโลกนี้และโลกหน้า</span> \
+
+<br>(อ่าน 3 ครั้ง) \
+<span class="text-right text-lg text-slate-500 mt-2">***วิธีอ่าน: คำที่เปลี่ยนตามเวลา
+<span class="morning"><span>☀️</span>คำอ่านตอนเช้า<span>☀️</span></span> 
+(<span class="evening"><span>🌙</span>คำอ่านตอนเย็น<span>🌙</span></span>)</span>`,
 
   "explanation": `“ผู้ใดที่อ่านสามครั้งในยามเช้าและยามเย็นอัลลอฮฺจะทำให้ความประสงค์ของเขาบรรลุผล“
 <span class="block text-right text-sm text-slate-500">\
