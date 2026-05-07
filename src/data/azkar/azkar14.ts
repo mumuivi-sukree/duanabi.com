@@ -1,23 +1,31 @@
 export const duaData = {
   "title": "ดุอาอ์ขอบคุณในความโปรดปราน (ยามเช้า)",
 
-  "fullArabic": `اللَّهُمَّ مَا 
+  "fullArabic": `\
+<span class="text-green-700">اللَّهُمَّ مَا</span> \ 
 <span class="morning"><span>☀️</span> أَصْبَحَ <span>☀️</span></span> \
-<span class="evening"><span>🌙</span> أَمْسَى <span>🌙</span></span>
-بِي مِنْ نِعْمَةٍ، أَوْ بِأَحَدٍ مِنْ خَلْقِكَ، فَمِنْكَ وَحْدَكَ لَا شَرِيكَ لَكَ، فَلَكَ الْحَمْدُ وَلَكَ الشُّكْرُ
-(<span class="morning"><span>☀️</span><span class="!text-3xl"> ยามเช้า </span><span>☀️</span></span> \
-<span class="evening"><span>🌙</span><span class="!text-3xl"> ยามเย็น </span><span>🌙</span></span>)`,
+(<span class="evening"><span>🌙</span> أَمْسَى <span>🌙</span></span>)
+<span class="text-green-700">بِي مِنْ نِعْمَةٍ، </span> \
+<span class="text-yellow-500">أَوْ بِأَحَدٍ مِنْ خَلْقِكَ، </span> \
+<span class="text-red-700">فَمِنْكَ وَحْدَكَ لَا شَرِيكَ لَكَ، </span> \
+<span class="text-fuchsia-700">فَلَكَ الْحَمْدُ وَلَكَ الشُّكْرُ</span> \
+
+
+<span class="text-right text-lg text-slate-500 mt-2">คำอ่าน: \
+<span class="morning"><span>☀️</span>ตอนเช้า<span>☀️</span></span> \
+(<span class="evening"><span>🌙</span>ตอนเย็น<span>🌙</span></span>)\
+</span>`,
 
   "fullTranslation": `\
-โอ้อัลลอฮฺ ความโปรดปรานใดๆ ที่ได้ประสบแก่ฉันใน\
+<span class="text-green-700">โอ้อัลลอฮฺ ความโปรดปรานใดๆ ที่ได้ประสบแก่ฉันใน</span>\
 <span class="morning"><span>☀️</span> ยามเช้า <span>☀️</span></span> \
 (<span class="evening"><span>🌙</span> ยามเย็น <span>🌙</span></span>) \
-หรือประสบแก่ผู้ใดคนหนึ่งจากบรรดาสิ่งถูกสร้างของพระองค์ท่าน ความโปรดปรานเหล่านั้นมาจากพระองค์เพียงผู้เดียวเท่านั้น \
-โดยไม่มีภาคีใดๆ สำหรับพระองค์ท่าน ดังนั้น สำหรับพระองค์ท่านคือมวลการสรรเสริญ และสำหรับพระองค์ท่านคือการขอบคุณ
-<span class="text-right text-lg text-slate-500 mt-2">[ วิธีอ่าน: \
-<span class="morning"><span>☀️</span>ยามเช้า<span>☀️</span></span> \
-<span class="evening"><span>🌙</span>ยามเย็น<span>🌙</span></span>\
-]</span>`,
+<span class="text-yellow-500">หรือประสบแก่ผู้ใดคนหนึ่งจากบรรดาสิ่งถูกสร้างของพระองค์ท่าน</span> \
+<span class="text-red-700">ความโปรดปรานเหล่านั้นมาจากพระองค์เพียงผู้เดียวเท่านั้น โดยไม่มีภาคีใดๆ สำหรับพระองค์ท่าน</span> \
+<span class="text-fuchsia-700">ดังนั้น สำหรับพระองค์ท่านคือมวลการสรรเสริญ และสำหรับพระองค์ท่านคือการขอบคุณ</span> \
+<br><span class="text-right text-lg text-slate-500 mt-2">***วิธีอ่าน: คำที่เปลี่ยนตามเวลา
+<span class="morning"><span>☀️</span>คำอ่านตอนเช้า<span>☀️</span></span> 
+(<span class="evening"><span>🌙</span>คำอ่านตอนเย็น<span>🌙</span></span>)</span>`,
  
  
   "explanation": `“ผู้ใดที่อ่านมันยามเช้า เขาย่อมได้ชดใช้การขอบคุณแล้วในวันนั้น ผู้ใดที่อ่านมันยามเย็น เขาย่อมได้ชดใช้การขอบคุณแล้วในคืนนั้น“

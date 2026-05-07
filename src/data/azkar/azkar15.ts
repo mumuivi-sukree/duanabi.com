@@ -1,33 +1,33 @@
 export const duaData = {
   "title": "ดุอาอ์ยามเช้า (อำนาจการปกครองเป็นสิทธิของอัลลอฮฺ)",
   "fullArabic": `\
-<span class="morning"><span>☀️</span>أَصْبَحْنَا وَ أَصْبَحَ<span>☀️</span></span> \
-<span class="evening"><span>🌙</span>أَمْسَيْنَا وَ أَمْسَى<span>🌙</span></span>
+<span class="morning"><span>☀️</span>أَصْبَحْنَا وَ أَصْبَحَ<span>☀️</span></span>
+(<span class="evening"><span>🌙</span>أَمْسَيْنَا وَ أَمْسَى<span>🌙</span></span>)
 
-<span class="text-red-700">الْمُلْكُ لِلَّهِ،</span>\
-<span class="text-yellow-500">وَالْحَمْدُ لِلَّهِ لَا شَرِيكَ لَهُ،</span>\
-<span class="text-green-600">لَا إِلَـٰهَ إِلَّا هُوَ وَإِلَيْهِ،</span>\
+<span class="text-red-700">الْمُلْكُ لِلَّهِ،</span> \
+<span class="text-yellow-600">وَالْحَمْدُ لِلَّهِ لَا شَرِيكَ لَهُ،</span> \
+<span class="text-green-700">لَا إِلَـٰهَ إِلَّا هُوَ وَإِلَيْهِ،</span> \
   
-<span class="morning"><span>☀️</span>النُّشُورُ<span>☀️</span></span> \
-<span class="evening"><span>🌙</span>الْمَصِيرُ<span>🌙</span></span>
+<span class="morning"><span>☀️</span>النُّشُورُ<span>☀️</span></span>
+(<span class="evening"><span>🌙</span>الْمَصِيرُ<span>🌙</span></span>)
 
-<span class="text-right text-lg text-slate-500 mt-2">[ วิธีอ่าน: \
-<span class="morning"><span>☀️</span>ยามเช้า<span>☀️</span></span> \
-<span class="evening"><span>🌙</span>ยามเย็น<span>🌙</span></span>\
-]</span>`,
+<span class="text-right text-lg text-slate-500 mt-2">คำอ่าน: \
+<span class="morning"><span>☀️</span>ตอนเช้า<span>☀️</span></span> \
+(<span class="evening"><span>🌙</span>ตอนเย็น<span>🌙</span></span>)\
+</span>`,
 
   "fullTranslation": `พวกเรามีชีวิตอยู่ใน\
-<span class="morning"><span>☀️</span> เช้าวันนี้ <span>☀️</span></span> \
-(<span class="evening"><span>🌙</span> ค่ำคืนนี้ <span>🌙</span></span>) \
+<span class="morning"><span>☀️</span>เช้าวันนี้<span>☀️</span></span> \
+(<span class="evening"><span>🌙</span>ค่ำคืนนี้<span>🌙</span></span>) \
 <span class="text-right text-lg text-red-700 mt-2">โดยอำนาจการปกครองเป็นของอัลลอฮฺ</span>
-<span class="text-right text-lg text-yellow-500 mt-2">และมวลการสรรเสริญเป็นเอกสิทธิ์ของพระองค์โดยปราศจากการตั้งภาคีใดๆ สำหรับพระองค์</span>
-<span class="text-right text-lg text-green-600 mt-2">ไม่มีพระเจ้าอื่นใดนอกจากพระองค์ และยังพระองค์เราจะ</span>\
+<span class="text-right text-lg text-yellow-600 mt-2">และมวลการสรรเสริญเป็นเอกสิทธิ์ของพระองค์\
+โดยปราศจากการตั้งภาคีใดๆ สำหรับพระองค์</span>
+<span class="text-right text-lg text-green-700 mt-2">ไม่มีพระเจ้าอื่นใดนอกจากพระองค์ และยังพระองค์เราจะ</span>\
 <span class="morning"><span>☀️</span>ฟื้นคืนชีพ<span>☀️</span></span> \
 (<span class="evening"><span>🌙</span>กลับคืนสู่<span>🌙</span></span>)
-<span class="text-right text-lg text-slate-500 mt-2">***วิธีอ่าน: คำที่เปลี่ยนตามเวลา\
-<span class="morning"><span>☀️</span>คำอ่านตอนเช้า<span>☀️</span></span> \
-(<span class="evening"><span>🌙</span>คำอ่านตอนเย็น<span>🌙</span></span>)\
-</span>`,
+<br><span class="text-right text-lg text-slate-500 mt-2">***วิธีอ่าน: คำที่เปลี่ยนตามเวลา
+<span class="morning"><span>☀️</span>คำอ่านตอนเช้า<span>☀️</span></span> 
+(<span class="evening"><span>🌙</span>คำอ่านตอนเย็น<span>🌙</span></span>)</span>`,
 
 /*
   "fullTranslation": `\
