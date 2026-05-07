@@ -9,7 +9,7 @@ export const duaData = {
 <span class="evening"><span>🌙</span><span class="!text-3xl"> ยามเย็น </span><span>🌙</span></span>)`,
 
 
-  "fullTranslation": `โอ้อัลลอฮฺ แท้จริงฉันได้เข้าสู่ <span class="morning"><span>☀️</span> ยามเช้า <span>☀️</span></span> \
+  "fullTranslation": `\โอ้อัลลอฮฺ แท้จริงฉันได้เข้าสู่ <span class="morning"><span>☀️</span> ยามเช้า <span>☀️</span></span> \
 (<span class="evening"><span>🌙</span> ยามเย็น <span>🌙</span></span>) จากพระองค์ท่านในความโปรดปราน มีสุขภาพที่ดี และการปกปิด (ข้อบกพร่อง) \
 ดังนั้นโปรดทรงให้ความโปรดปรานของพระองค์ สุขภาพที่ดีของพระองค์ และการปกปิดของพระองค์นั้นครบถ้วนสมบูรณ์แก่ฉัน ทั้งในโลกนี้และโลกหน้า
 <span class="text-right text-lg text-slate-500 mt-2">[ วิธีอ่าน:(อ่าน 3 ครั้ง) \
