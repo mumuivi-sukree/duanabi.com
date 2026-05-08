@@ -21,10 +21,23 @@ export const duaData = {
 </span>`,
 
 
-  "fullTranslation": `โอ้อัลลอฮฺ ด้วยพระองค์ท่านที่เราเข้าสู่ <span class="morning"><span>☀️</span> ยามเช้า <span>☀️</span></span>(<span class="evening"><span>🌙</span> ยามเย็น <span>🌙</span></span>) \
-และด้วยพระองค์ท่านที่เราเข้าสู่ (<span class="evening"><span>🌙</span> ยามเย็น <span>🌙</span></span>)<span class="morning"><span>☀️</span> ยามเช้า <span>☀️</span></span> \
-และด้วยพระองค์ท่านที่เรามีชีวิตอยู่ และด้วยพระองค์ท่านที่เราตาย และยังพระองค์ท่านคือ <span class="morning"><span>☀️</span> การฟื้นคืนชีพ <span>☀️</span></span>(<span class="evening"><span>🌙</span> การกลับไป <span>🌙</span></span>)
-<span class="block text-right text-sm text-slate-500 mt-2">[ วิธีอ่าน: ยามเช้าอ่านที่มี ☀️ และยามเย็นอ่านที่มี 🌙 </span>`,
+  "fullTranslation": `\
+  <span class="text-emerald-700"> โอ้อัลลอฮฺ ด้วยพระองค์ท่านที่เราเข้าสู่</span> \
+<span class="morning"><span>☀️</span>ยามเช้า<span>☀️</span></span> \
+(<span class="evening"><span>🌙</span>ยามเย็น<span>🌙</span></span>)
+<span class="text-rose-700">และด้วยพระองค์ท่านที่เราเข้าสู่</span> \
+<span class="morning"><span>☀️</span>ยามเย็น<span>☀️</span></span> \
+(<span class="evening"><span>🌙</span>ยามเช้า<span>🌙</span></span>) 
+<span class="text-amber-300">และด้วยพระองค์ท่านที่เรามีชีวิตอยู่</span> \
+<span class="text-lime-900">และด้วยพระองค์ท่านที่เราตาย</span> \ 
+<span class="text-pink-700">และยังพระองค์ท่านคือ</span> \
+<span class="morning"><span>☀️</span>การฟื้นคืนชีพ<span>☀️</span></span> \
+(<span class="evening"><span>🌙</span>การกลับไป<span>🌙</span></span>)
+
+<br><span class="text-right text-lg text-slate-500 mt-2">คำอ่าน: \
+<span class="morning"><span>☀️</span>ตอนเช้า<span>☀️</span></span> \
+(<span class="evening"><span>🌙</span>ตอนเย็น<span>🌙</span></span>)\
+</span>`,
 
 "explanation": `
 ท่านนบี ﷺ จะอ่านทุกๆ เวลาเช้าและเวลาเย็น อ้างอิงจาก เศาะฮีหุ, อัล-บุคอรีย์ ใน อัล-อะดับ อัล-มุฟร็อด 1199, อยู่ดาวูด 5068, อัต-ติรมิซีย์ 3391,\

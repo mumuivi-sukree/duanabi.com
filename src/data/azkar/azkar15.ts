@@ -29,18 +29,6 @@ export const duaData = {
 <span class="morning"><span>☀️</span>คำอ่านตอนเช้า<span>☀️</span></span> 
 (<span class="evening"><span>🌙</span>คำอ่านตอนเย็น<span>🌙</span></span>)</span>`,
 
-/*
-  "fullTranslation": `\
-เราเข้าสู่\
-<span class="morning"><span>☀️</span> ยามเช้า <span>☀️</span></span> \
-(<span class="evening"><span>🌙</span> ยามเย็น <span>🌙</span></span>) \
-และอำนาจการปกครองทั้งมวลก็เข้าสู่ยามเช้าเป็นสิทธิของอัลลอฮฺ มวลการสรรเสริญเป็นสิทธิของอัลลอฮฺ \
-ไม่มีภาคีใดๆ สำหรับพระองค์ ไม่มีพระเจ้าอื่นใดนอกจากพระองค์ และยังพระองค์คือ<การฟื้นคืนชีพ>(การกลับไป)
-<span class="text-right text-lg text-slate-500 mt-2">[ วิธีอ่าน: \
-<span class="morning"><span>☀️</span>ยามเช้า<span>☀️</span></span> \
-<span class="evening"><span>🌙</span>ยามเย็น<span>🌙</span></span>\
-]</span>`,
-*/
   "explanation": `\
 ท่านนบี ﷺ จะอ่านทุกๆเวลาเช้าและเวลาเย็น หลักฐานจาก หะสัน, อัล-บุคอรีย์ใน อะดับ อัล-มุฟร็อด 604, \
 อัล-บัซซารุ ดูมัจญ์มะอุอัซซะวาอิด เล่ม 10 หน้า 114, อิบนุสสุนนีย์ 82)
