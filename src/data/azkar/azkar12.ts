@@ -1,17 +1,24 @@
 export const duaData = {
   "title": "ดุอาอ์ยามเช้า (Morning Supplication)",
-"fullArabic": `اَللَّهُمَّ بِكَ 
+"fullArabic": `\
+<span class="text-emerald-700"> اَللَّهُمَّ بِكَ </span> \ 
 <span class="morning"><span>☀️</span> أَصْبَحْنَا <span>☀️</span></span> \
-<span class="evening"><span>🌙</span> أَمْسَيْنَا <span>🌙</span></span>
-، وَبِكَ 
-<span class="morning"><span>☀️</span> أَصْبَحْنَا <span>☀️</span></span> \
-<span class="evening"><span>🌙</span> أَمْسَيْنَا <span>🌙</span></span> 
-، وَبِكَ نَحْيَا، وَبِكَ نَمُوتُ، وَإِلَيْكَ 
+(<span class="evening"><span>🌙</span> أَمْسَيْنَا <span>🌙</span></span>)
+<span class="text-rose-700"> وَبِكَ،  </span> \ 
+ 
+<span class="morning"><span>☀️</span>أَمْسَيْنَا <span>☀️</span></span> \
+(<span class="evening"><span>🌙</span> أَصْبَحْنَا <span>🌙</span></span>) 
+<span class="text-amber-300">، وَبِكَ نَحْيَا،</span> \
+<span class="text-lime-900">وَبِكَ نَمُوتُ،</span> \ 
+<span class="text-pink-700">وَإِلَيْكَ</span> \ 
+   
 <span class="morning"><span>☀️</span> النُّشُورُ <span>☀️</span></span> \
-<span class="evening"><span>🌙</span> ٱلْمَصِيرُ <span>🌙</span></span>
+(<span class="evening"><span>🌙</span> ٱلْمَصِيرُ <span>🌙</span></span>)
 
-(<span class="morning"><span>☀️</span><span class="!text-3xl"> ยามเช้า </span><span>☀️</span></span> \
-<span class="evening"><span>🌙</span><span class="!text-3xl"> ยามเย็น </span><span>🌙</span></span>)`,
+<span class="text-right text-lg text-slate-500 mt-2">คำอ่าน: \
+<span class="morning"><span>☀️</span>ตอนเช้า<span>☀️</span></span> \
+(<span class="evening"><span>🌙</span>ตอนเย็น<span>🌙</span></span>)\
+</span>`,
 
 
   "fullTranslation": `โอ้อัลลอฮฺ ด้วยพระองค์ท่านที่เราเข้าสู่ <span class="morning"><span>☀️</span> ยามเช้า <span>☀️</span></span>(<span class="evening"><span>🌙</span> ยามเย็น <span>🌙</span></span>) \
