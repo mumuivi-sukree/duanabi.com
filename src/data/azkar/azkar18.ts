@@ -61,7 +61,10 @@ export const duaData = {
 <span class="morning"><span>☀️</span>คำอ่านตอนเช้า<span>☀️</span></span> 
 (<span class="evening"><span>🌙</span>คำอ่านตอนเย็น<span>🌙</span></span>)</span>
   `,
-  "explanation": "“เมื่อผู้ใดในหมู่พวกเจ้าอยู่ในยามเช้า เขาจงกล่าวดุอาอ์นี้ และเมื่อถึงเวลาเย็นก็ให้อำนดุอาอันี้เช่นเดียวกัน“ (หะสัน, อบูดาวูด 5084)",
+  "explanation": `\
+  “เมื่อผู้ใดในหมู่พวกเจ้าอยู่ในยามเช้า เขาจงกล่าวดุอาอ์นี้ และเมื่อถึงเวลาเย็นก็ให้อำนดุอาอันี้เช่นเดียวกัน“
+  <span class="block text-right text-sm text-slate-500">(หะสัน, อบูดาวูด 5084)</span>`,
+  
   "audio_url": "https://assets.duanabi.com/audio/azkar/azkar18s.mp3",
   "words": [
     { "ar": "أَصْبَحْنَا", "read": "อัศบะห์นา", "mean": "เราเข้าสู่ยามเช้า" },
