@@ -3,11 +3,10 @@ export const duaData ={
   "fullArabic": `\
 <span class="text-stone-600">رَضِيتُ بِاللَّهِ رَبًّا، </span> 
 <span class="text-blue-800">وَبِالْإِسْلَامِ دِينًا، </span> 
-<span class="text-lime-500">وَبِمُحَمَّدٍ رَسُولًا
-</span> \ 
+<span class="text-lime-500">وَبِمُحَمَّدٍ رَسُولًا</span> \ 
 
 <span class="!text-3xl">( **อ่าน 3 ครั้ง** )<\span>
-
+`,
   "fullTranslation": `\
 <span class="text-stone-600">ฉันพึงพอใจต่ออัลลอฮฺในฐานะพระเจ้า</span> 
 <span class="text-blue-800">และอิสลามในฐานะศาสนา</span> 
