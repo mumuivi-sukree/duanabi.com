@@ -4,26 +4,27 @@ export const duaData = {
 اللَّهُمَّ \
 • <span class="text-blue-600 "> عَافِنَا </span>• \
 فِي \
-• <span class="text-blue-600"> أَبْدَانِنَا </span>• \
+• <span class="text-blue-600"> أَبْدَانِنَا </span>• 
 اللَّهُمَّ \
 • <span class="text-blue-600"> عَافِنَا </span>• \
 فِي \
-• <span class="text-blue-600"> أَسْمَاعِنَا </span>• \
+• <span class="text-blue-600"> أَسْمَاعِنَا </span>• 
 اللَّهُمَّ \
 • <span class="text-blue-600"> عَافِنَا </span>• \
 فِي \
-• <span class="text-blue-600"> أَبْصَارِنَا </span>• \
-لَا إِلَهَ إِلَّا أَنْتَ، \
+• <span class="text-blue-600"> أَبْصَارِنَا </span>• 
+لَا إِلَهَ إِلَّا أَنْتَ، 
 اللَّهُمَّ \
 • <span class="text-blue-600"> إِنَّا </span> \
 • <span class="text-blue-600"> نَعُوذُ </span>• \
 بِكَ \
-مِنَ الْكُفْرِ وَالْفَقْرِ،\
+مِنَ الْكُفْرِ وَالْفَقْرِ،
 اللَّهُمَّ \
 • <span class="text-blue-600"> إِنَّا </span> \
 • <span class="text-blue-600"> نَعُوذُ </span>• \
  بِكَ \
-مِنْ عَذَابِ الْقَبْرِ، لَا إِلَهَ إِلَّا أَنْتَ,\
+مِنْ عَذَابِ الْقَبْرِ،
+ لَا إِلَهَ إِلَّا أَنْتَ,\
 `,
 
   "words": [

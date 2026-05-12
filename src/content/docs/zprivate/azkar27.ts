@@ -7,23 +7,23 @@ export const duaData = {
 اللَّهُمَّ\
 • <span class="text-blue-600 ">إِنَّا نَسْأَ</span>• \
 لُكَ الْعَفْوَ وَالْعَافِيَةَ فِي \
-• <span class="text-blue-600 ">دِينِنَا وَدُنْيَانَا وَأَهْلِنَا وَأَمْوَالِنَا،</span>• \
+• <span class="text-blue-600 ">دِينِنَا وَدُنْيَانَا وَأَهْلِنَا وَأَمْوَالِنَا،</span>• 
 اللَّهُمَّ اسْتُرْ عَوْرَا\
 •<span class="text-blue-600 ">تِنَا</span>• \
 ، وَآمِنْ رَوْعَا\
-•<span class="text-blue-600 ">تِنَا</span>• \
-اللَّهُمَّ 
+•<span class="text-blue-600 ">تِنَا</span>• 
+اللَّهُمَّ \
 •<span class="text-blue-600 ">احْفَظْنَا</span>• \
 مِنْ بَيْنِ \
-•<span class="text-blue-600 ">أَيْدِينَا،</span>• \
-وَمِنْ 
+•<span class="text-blue-600 ">أَيْدِينَا،</span>• 
+وَمِنْ \
 •<span class="text-blue-600 ">خَلْفِنَا،</span>• \
 وَعَنْ \
 •<span class="text-blue-600 ">أَيْمَانِنَا،</span>• \
 وَعَنْ \
 •<span class="text-blue-600 ">شَمَائِلِنَا،</span>• \
 وَمِنْ \
-•<span class="text-blue-600 ">فَوْقِنَا،</span>• \
+•<span class="text-blue-600 ">فَوْقِنَا،</span>• 
 وَنَعُوذُ\
 بِعَظَمَتِكَ أَنْ نُغْتَالَ مِنْ\
 •<span class="text-blue-600 ">تَحْتِنَا</span>• \
