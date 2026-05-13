@@ -13,10 +13,11 @@ export const duaData = {
 • <span class="text-amber-600"> </span>
 • <span class="text-gray-500"> </span>
 • <span class="text-indigo-500"> </span>
+• <span class="text-red-500"> </span>
 
 <span class="!text-lg">()<\span>
-<span class="block text-right text-sm text-slate-500">(ฮาดีศ )<\span>
-<span class="block text-right text-lg text-slate-500">(ซูเราะห์ )<\span>
+<span class="block text-right text-sm text-slate-500">(ฮาดีศ )</span>
+<span class="block text-right text-lg text-slate-500">(ซูเราะห์ )</span>
 
   `,
   "fullTranslation": `\
