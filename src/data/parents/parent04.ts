@@ -5,6 +5,7 @@ export const duaData = {
 • <span class="text-emerald-600">وَلِوَالِدَيَّ </span>\
 • <span class="text-pink-600">وَارْحَمْهُمَا </span> \
 • <span class="text-cyan-600">كَمَا رَبَّيَانِي صَغِيرًا </span> \
+<span class="block text-right text-sm text-slate-500">(รวมดุอาอ์จาก 2 ซูเราะฮ์ นูห์:28  และ อัลอิสรออ์:24)<\span>
 `,
 
   "fullTranslation": `\
@@ -12,6 +13,8 @@ export const duaData = {
 • <span class="text-emerald-600">และบิดามารดาของข้าพระองค์ </span>\
 • <span class="text-pink-600">และทรงโปรดเมตตาแก่ท่านทั้งสอง </span> \
 • <span class="text-cyan-600">เช่นที่ทั้งสองได้เลี้ยงดูข้าพระองค์มาเมื่อครั้งยังเยาว์วัย </span> \
+<span class="block text-right text-sm text-slate-500">(รวมดุอาอ์จาก 2 ซูเราะฮ์ นูห์:28  และ อัลอิสรออ์:24)<\span>
+
 `,
   "explanation": `\
     เป็นการรวมดุอาอ์จาก 2 ซูเราะฮ์ คือการขออภัยโทษ (จากนูห์:28) และการขอความเมตตา (จากอัลอิสรออ์:24) \

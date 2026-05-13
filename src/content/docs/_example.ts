@@ -9,17 +9,15 @@ export const duaData = {
 • <span class="text-blue-800"> </span> 
 • <span class="text-lime-500"> </span> 
 • <span class="text-fuchsia-600"> </span>
-<span class="!text-lg">(ซูเราะฮ์อัลอะห์กอฟ อายะฮ์ที่ 15)<\span>
-<span class="block text-right text-sm text-slate-500">\
+• <span class="text-green-500"> </span>
+• <span class="text-amber-600"> </span>
+• <span class="text-gray-500"> </span>
+• <span class="text-indigo-500"> </span>
 
-رَبِّ أَوْزِعْنِي 
-أَنْ أَشْكُرَ نِعْمَتَكَ 
-الَّتِي أَنْعَمْتَ عَلَيَّ
-وَعَلَىٰ وَالِدَيَّ 
-وَأَنْ أَعْمَلَ صَالِحًا تَرْضَاهُ
-وَأَصْلِحْ لِي فِي ذُرِّيَّتِي ۖ
-إِنِّي تُبْتُ إِلَيْكَ 
-وَإِنِّي مِنَ الْمُسْلِمِينَ
+<span class="!text-lg">()<\span>
+<span class="block text-right text-sm text-slate-500">(ฮาดีศ )<\span>
+<span class="block text-right text-lg text-slate-500">(ซูเราะห์ )<\span>
+
   `,
   "fullTranslation": `\
 • <span class="text-emerald-600"> </span>

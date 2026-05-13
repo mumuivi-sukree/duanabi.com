@@ -9,7 +9,7 @@ export const duaData = {
  <span class="text-blue-800">وَأَصْلِحْ لِي فِي ذُرِّيَّتِي ۖ</span> \
  <span class="text-lime-500">إِنِّي تُبْتُ إِلَيْكَ </span> \
  <span class="text-fuchsia-600">وَإِنِّي مِنَ الْمُسْلِمِينَ</span>
-<span class="!text-lg">(ซูเราะฮ์อัลอะห์กอฟ อายะฮ์ที่ 15)<\span>
+<span class="block text-right text-lg text-slate-500">(ซูเราะฮ์อัลอะห์กอฟ อายะฮ์ที่ 15)<\span>
 
   `,
   "fullTranslation": `\
@@ -21,7 +21,7 @@ export const duaData = {
 • <span class="text-blue-800">และขอพระองค์ทรงปรับปรุงลูกหลานของข้าพระองค์ให้เป็นคนดีแก่ข้าพระองค์ด้วย </span> 
 • <span class="text-lime-500">แท้จริงข้าพระองค์ขอสารภาพผิดต่อพระองค์ </span> 
 • <span class="text-fuchsia-600">และแท้จริงข้าพระองค์อยู่ในหมู่ผู้นอบน้อม (มุสลิม) </span>
-<span class="!text-lg">(ซูเราะฮ์อัลอะห์กอฟ อายะฮ์ที่ 15)<\span>
+<span class="block text-right text-lg text-slate-500">(ซูเราะฮ์อัลอะห์กอฟ อายะฮ์ที่ 15)<\span>
         `,
 
   "explanation": `\

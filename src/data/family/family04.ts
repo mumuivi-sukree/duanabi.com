@@ -5,7 +5,7 @@ export const duaData = {
  <span class="text-yellow-500">اللَّهُمَّ جَنِّبْنَا الشَّيْطَانَ </span>\ 
  <span class="text-pink-600">وَجَنِّبِ الشَّيْطَانَ </span>\
  <span class="text-cyan-600">مَا رَزَقْتَنَا </span>
-<span class="!text-lg">(ฮะดีษบันทึกโดยอัล-บุคอรีย์ 141 และมุสลิม 1434 )<\span>
+<span class="block text-right text-lg text-slate-500">(ฮะดีษบันทึกโดยอัล-บุคอรีย์ 141 และมุสลิม 1434 )<\span>
 
   `,
   "fullTranslation": `\
@@ -13,7 +13,7 @@ export const duaData = {
 • <span class="text-yellow-500">โอ้อัลลอฮ์ โปรดทรงให้ชัยฏอนห่างไกลจากเรา </span> 
 • <span class="text-pink-600">และโปรดทรงให้ชัยฏอนห่างไกล </span> 
 • <span class="text-cyan-600">จากสิ่งที่พระองค์ทรงประทานเป็นริซกีแก่เรา (ลูกที่จะเกิดมา) </span> 
-<span class="!text-lg">(ฮะดีษบันทึกโดยอัล-บุคอรีย์ 141 และมุสลิม 1434 )<\span>
+<span class="block text-right text-lg text-slate-500">(ฮะดีษบันทึกโดยอัล-บุคอรีย์ 141 และมุสลิม 1434 )<\span>
   `,
   "explanation": `\
   รายงานโดยท่านอิบนุ อับบาส (ร.ฎ.) ท่านนบี (ﷺ) ทรงกล่าวว่า: 

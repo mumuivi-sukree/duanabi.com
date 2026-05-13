@@ -2,7 +2,9 @@ export const duaData = {
   "title": "ดุอาอ์ให้บิดามารดา อัลอิสรออ์ อายะฮ์ที่ 24",
   "fullArabic": `\
 <span class="text-emerald-600">رَّبِّ ارْحَمْهُمَا </span>\
-<span class="text-yellow-500">كَمَا رَبَّيَانِي صَغِيرًا </span> \
+<span class="text-yellow-500">كَمَا رَبَّيَانِي صَغِيرًا </span>
+<span class="block text-right text-sm text-slate-500">(อัลอิสรออ์ อายะฮ์ที่ 24)<\span>
+
 `,
   "fullTranslation": `\
 <span class="text-emerald-600">ข้าแต่พระเจ้าของข้าพระองค์ ทรงโปรดเมตตาแก่ท่านทั้งสอง </span>\

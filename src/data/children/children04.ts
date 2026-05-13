@@ -6,7 +6,7 @@ export const duaData = {
  <span class="text-pink-600">وَأَرِنَا مَنَاسِكَنَا </span> \
  <span class="text-cyan-600">  وَتُبْ عَلَيْنَا ۖ </span> \
  <span class="text-stone-600">إِنَّكَ أَنتَ التَّوَّابُ الرَّحِيمُ </span> 
-<span class="!text-lg">(ซูเราะฮ์อัลบะเกาะเราะฮ์ อายะฮ์ที่ 128)<\span>
+<span class="block text-right text-lg text-slate-500">(ซูเราะฮ์อัลบะเกาะเราะฮ์ อายะฮ์ที่ 128)<\span>
   `,
   "fullTranslation": `\
 • <span class="text-emerald-600">ข้าแต่พระเจ้าของเรา ขอพระองค์ทรงทำให้เราทั้งสองเป็นผู้นอบน้อมต่อพระองค์ </span>\
@@ -14,7 +14,7 @@ export const duaData = {
 • <span class="text-pink-600">และขอพระองค์ทรงโปรดแสดงแก่เราซึ่งพิธีการทำฮัจญ์ของพวกข้าพระองค์ </span> \
 • <span class="text-cyan-600">และทรงโปรดอภัยโทษแก่เรา </span> \
 • <span class="text-stone-600">แท้จริงพระองค์ท่านคือผู้ทรงอภัยโทษ ผู้ทรงเมตตาเสมอ </span> 
-<span class="!text-lg">(ซูเราะฮ์อัลบะเกาะเราะฮ์ อายะฮ์ที่ 128)<\span>
+<span class="block text-right text-lg text-slate-500">(ซูเราะฮ์อัลบะเกาะเราะฮ์ อายะฮ์ที่ 128)<\span>
 `,
 
   "explanation": `\

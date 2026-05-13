@@ -6,7 +6,7 @@ export const duaData = {
  <span class="text-cyan-600">وَذُرِّيَّاتِنَا </span> \
  <span class="text-stone-600">قُرَّةَ أَعْيُنٍۢ </span> \
  <span class="text-blue-800">وَاجْعَلْنَا لِلْمُتَّقِينَ إِمَامًا </span> 
-<span class="!text-lg">(ซูเราะฮ์อัลฟุรกอน อายะฮ์ที่ 74)<\span>
+<span class="block text-right text-lg text-slate-500">(ซูเราะฮ์อัลฟุรกอน อายะฮ์ที่ 74)<\span>
 
 `,
   "fullTranslation": `\
@@ -15,7 +15,7 @@ export const duaData = {
 • <span class="text-cyan-600">และลูกหลานของเรา </span> \
 • <span class="text-stone-600">ให้เป็นที่ชื่นตาชื่นใจ </span> \
 • <span class="text-blue-800">และทรงทำให้เราเป็นแบบอย่างแก่บรรดาผู้ยำเกรง </span> 
-<span class="!text-lg">(ซูเราะฮ์อัลฟุรกอน อายะฮ์ที่ 74)<\span>
+<span class="block text-right text-lg text-slate-500">(ซูเราะฮ์อัลฟุรกอน อายะฮ์ที่ 74)<\span>
   `,
   "explanation": `\
   มาจากซูเราะฮ์อัลฟุรกอน อายะฮ์ที่ 74 เป็นดุอาอ์ที่ครอบคลุมทั้งเรื่องคู่ครองและบุตรหลาน โดยขอให้พวกเขาเป็น \"قُرَّةَ أَعْيُنٍۢ \" \

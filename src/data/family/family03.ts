@@ -7,7 +7,7 @@ export const duaData = {
  <span class="text-blue-800">وَأَزْوَاجِهِمْ </span> \
  <span class="text-lime-500">وَذُرِّيَّاتِهِمْ ۚ </span> \
  <span class="text-fuchsia-600">إِنَّكَ أَنتَ الْعَزِيزُ الْحَكِيمُ </span>  
- <span class="!text-lg">(ซูเราะฮ์ฆอฟิร อายะฮ์ที่ 8)<\span>
+ <span class="block text-right text-lg text-slate-500">(ซูเราะฮ์ฆอฟิร อายะฮ์ที่ 8)<\span>
   `,
 
   "fullTranslation": `\
@@ -17,7 +17,7 @@ export const duaData = {
 • <span class="text-blue-800">และคู่ครองของพวกเขา </span> 
 • <span class="text-lime-500">และลูกหลานของพวกเขา </span> 
 • <span class="text-fuchsia-600">แท้จริงพระองค์ท่านนั้นเป็นผู้ทรงมีอำนาจ ผู้ทรงปรีชาญาณ </span>
-<span class="!text-lg">(ซูเราะฮ์ฆอฟิร อายะฮ์ที่ 8)<\span>
+<span class="block text-right text-lg text-slate-500">(ซูเราะฮ์ฆอฟิร อายะฮ์ที่ 8)<\span>
 `,
 
   "explanation": `\

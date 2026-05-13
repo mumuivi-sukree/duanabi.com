@@ -4,14 +4,14 @@ export const duaData = {
 <span class="text-emerald-600">إِنِّي أُعِيذُهَا بِكَ </span>\
 <span class="text-yellow-500">وَذُرِّيَّتَهَا </span> \
 <span class="text-pink-600">مِنَ الشَّيْطَانِ الرَّجِيمِ </span>
-<span class="!text-lg">(ซูเราะฮ์อาลิ อิมรอน อายะฮ์ที่ 36)<\span>
+<span class="block text-right text-lg text-slate-500">(ซูเราะฮ์อาลิ อิมรอน อายะฮ์ที่ 36)<\span>
 `,
 
   "fullTranslation": `\
 • <span class="text-emerald-600">และแท้จริง ข้าพระองค์ขอพระองค์ ทรงคุ้มครองนาง </span>
 • <span class="text-yellow-500">และลูกหลานของนาง </span> 
 • <span class="text-pink-600">ให้พ้นจากชัยฏอนที่ถูกขับไล่ </span> 
-<span class="!text-lg">(ซูเราะฮ์อาลิ อิมรอน อายะฮ์ที่ 36)<\span>
+<span class="block text-right text-lg text-slate-500">(ซูเราะฮ์อาลิ อิมรอน อายะฮ์ที่ 36)<\span>
  `,
 
   "explanation": `\

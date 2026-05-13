@@ -3,12 +3,12 @@ export const duaData = {
 "fullArabic": `\
 • <span class="text-emerald-600">رَبِّ هَبْ لِي مِن لَّدُنكَ ذُرِّيَّةً طَيِّبَةً ۖ </span>\
 • <span class="text-cyan-600">إِنَّكَ سَمِيعُ الدُّعَاءِ</span> 
-<span class="!text-lg">(ซูเราะฮ์อาลิ อิมรอน อายะฮ์ที่ 38)<\span>
+<span class="block text-right text-lg text-slate-500">(ซูเราะฮ์อาลิ อิมรอน อายะฮ์ที่ 38)<\span>
 `,
 "fullTranslation": `\
 • <span class="text-emerald-600">ข้าแต่พระเจ้าของข้าพระองค์ ขอพระองค์ทรงประทานแก่ข้าพระองค์ซึ่งบุตรที่ดีจากพระองค์ </span>\
 • <span class="text-cyan-600"> แท้จริงพระองค์ท่านเป็นผู้ทรงได้ยินคำวิงวอน </span> 
-<span class="!text-lg">(ซูเราะฮ์อาลิ อิมรอน อายะฮ์ที่ 38)<\span>
+<span class="block text-right text-lg text-slate-500">(ซูเราะฮ์อาลิ อิมรอน อายะฮ์ที่ 38)<\span>
 `,
   "explanation": "เป็นดุอาอ์ของนบีซะกะรียา (อ.) ที่ปรากฏในซูเราะฮ์อาลิ อิมรอน อายะฮ์ที่ 38 ท่านได้วิงวอนต่ออัลลอฮ์ให้ประทานทายาทที่ดี (ศอและห์) แม้ในวัยที่ท่านและภรรยาจะมีอายุมากแล้วก็ตาม เป็นบทขอพรที่เน้นความบริสุทธิ์และการเป็นคนดีของลูกหลาน",
   "audio_url": "https://assets.duanabi.com/audio/children/children01.mp3",

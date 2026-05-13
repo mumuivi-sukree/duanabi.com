@@ -1,4 +1,4 @@
-export const duaData = {  
+export const duaData = {
   "title": "25-ดุอาอ์ขอความคุ้มครองจากความกังวลและความโศกเศร้า",
   "fullArabic": `\
 • <span class="text-emerald-600">اللَّهُمَّ إِنِّي </span>\
