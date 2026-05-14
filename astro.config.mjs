@@ -10,7 +10,8 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
   site: 'https://duanabi.com/',
   trailingSlash: 'always',
-  integrations: [starlight({
+  integrations: [
+    starlight({
       title: 'duanabi.com',
 		  logo: {
         src: './src/assets/duanabi-logo.png', // ถ้ามีโลโก้หน้าเว็บ
@@ -45,6 +46,7 @@ export default defineConfig({
                 tag: 'meta',
                 attrs: { property: 'og:image', content: 'https://duanabi.com/dua1.webp' },
                 },
+         /*
                 {
                 tag: 'meta',
                 attrs: { property: 'og:title', content: 'Dua Nabi ดุอาอฺ ฉบับเข้าใจง่าย' },
@@ -53,14 +55,22 @@ export default defineConfig({
                 tag: 'meta',
                 attrs: { property: 'og:description', content: 'รวมบทดุอาอ์จากอัลกุรอานและซุนนะฮ์ เรียนรู้ดุอาอ์พร้อมคำแปลและคำอธิบายที่ถูกต้อง' },
                 },
-        ],
-
+          */      
+      ],
       customCss: ['./src/styles/custom.css'],
       components: {
           Footer: './src/components/BottomNav.astro',
       },
-  }), sitemap()],
-    devToolbar: { enabled: false },
+    }), 
+    sitemap({
+          serialize(item) {
+            item.lastmod = new Date().toISOString();
+            return item;
+          },
+    }), // ปิด sitemap และมีคอมม่า
+    tailwindcss(), // ปิด tailwind  
+  ],
+  devToolbar: { enabled: false },
   vite: {
     plugins: [tailwindcss()],
   },
