@@ -62,13 +62,7 @@ export default defineConfig({
           Footer: './src/components/BottomNav.astro',
       },
     }), 
-    sitemap({
-          serialize(item) {
-            item.lastmod = new Date().toISOString();
-            return item;
-          },
-    }), // ปิด sitemap และมีคอมม่า
-    tailwindcss(), // ปิด tailwind  
+    sitemap(),
   ],
   devToolbar: { enabled: false },
   vite: {
