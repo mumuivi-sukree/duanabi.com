@@ -1,0 +1,26 @@
+---
+title: "ดุอาอ์ในวันอะเราะฟะฮฺ"
+description: "ดุอาอ์ที่ประเสริฐที่สุดคือดุอาอ์ในวันอะเราะฟะฮฺ ไม่มีวันใดที่อัลเลาะฮ์จะปลดปล่อยบ่าวของพระองค์จากไฟนรก ที่จะมากไปกว่า วันอะเราะฟะฮฺ"
+head:
+  - tag: meta
+    attrs:
+      property: "og:title"
+      content: "ดุอาอ์ในวันอะเราะฟะฮฺ"
+  - tag: meta
+    attrs:
+      property: "og:description"
+      content: "ดุอาอ์ที่ประเสริฐที่สุดคือดุอาอ์ในวันอะเราะฟะฮฺ ไม่มีวันใดที่อัลเลาะฮ์จะปลดปล่อยบ่าวของพระองค์จากไฟนรก ที่จะมากไปกว่า วันอะเราะฟะฮฺ"
+tableOfContents: false
+---
+
+import DuaPageMaster from '../../../components/DuaPageMaster-ts.astro';
+import DuaPagination from '../../../components/DuaPagination.astro';
+import {duaData} from '../../../data/goodtime/goodtime01.ts';
+
+<DuaPageMaster data={duaData} />
+
+{/* 👈 วางปุ่มนำทางไว้ด้านล่างสุด พร้อมระบุลิงก์ */}
+<DuaPagination 
+  prevUrl="" 
+  nextUrl=""
+/>
