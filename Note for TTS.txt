@@ -1,7 +1,7 @@
 scene : Use a Saudi Arabian (ar-SA) voice for Arabic text. The persona is a kind teacher or father teaching a child. Speak very clearly. Exaggerate the articulation of each letter (Makhraj). Add a natural pause after each word as if waiting for a student to repeat
 
 for clear not slow not fast use this scene : 
-Use a Saudi Arabian (ar-SA) voice for Arabic text. The persona is a kind teacher teaching . Speak very clearly. 
+Use a Saudi Arabian (ar-SA) voice for Arabic text. The persona is a kind teacher teaching . Speak very clearly. Don't Make wisper sound
 
 <speak>
   <lang xml:lang="ar-SA">
