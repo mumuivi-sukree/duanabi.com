@@ -8,3 +8,5 @@ Use a Saudi Arabian (ar-SA) voice for Arabic text. The persona is a kind teacher
 أَعُوذُ بِاللَّهِ السَّمِيعِ الْعَلِيمِ مِنَ الشَّيْطَانِ الرَّجِيمِ
   </lang>
 </speak>
+
+ffmpeg -i input.wav -c:a libmp3lame -b:a 64k output.mp3
