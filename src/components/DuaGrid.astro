@@ -1,10 +1,18 @@
 ---
+// src/components/DuaGrid.astro
 import DuaWord from './DuaWord.astro';
 const { duaData } = Astro.props;
+
+// 💡 ดักจับภาษาจาก URL ปัจจุบัน เพื่อดูว่าเป็นภาษาไทยหรือมาเลย์
+const pathname = Astro.url.pathname;
+const isMalay = pathname.startsWith('/ms/') || pathname === '/ms';
+
+// เลือกคำแปลหัวข้อตามภาษาปัจจุบันของหน้าเว็บ
+const headingTitle = isMalay ? "Kata demi Kata (Word by Word)" : "คำต่อคำ (Word by Word)";
 ---
 <section class="bg-white p-6 md:p-10 rounded-3xl my-6 border border-slate-100 shadow-sm">
   <h3 class="!text-blue-800 text-sm font-medium mb-6 border-b border-slate-200/50 pb-2 w-fit">
-    คำต่อคำ (Word by Word)
+    {headingTitle}
   </h3>
   <div class="dua-container-force not-prose">
     {duaData.map((item) => (

@@ -1,5 +1,5 @@
 ---
-// src/components/DuaPageMaster.astro
+// src/components/DuaPageMaster-ts.astro
 import DuaSection from './DuaSection-ts.astro';
 import DuaGrid from './DuaGrid.astro';
 
@@ -9,40 +9,67 @@ interface Props {
     fullTranslation: string;
     explanation: string;
     words: Array<{ ar: string; read: string; mean: string; }>;
-    audio_url?: string; // 1. เพิ่มฟิลด์สำหรับลิงก์เสียง (Optional)
+    audio_url?: string;
   }
 }
 
 const { data } = Astro.props;
----
 
+/* 💡 วิธีแก้ปัญหาที่แม่นยำที่สุด: แกะรหัสภาษาจาก URL เส้นทางโดยตรง
+  - ถ้า URL คือ /ms/children/children01/ -> ส่วนประกอบแรกหลังสแลชจะเป็น 'ms'
+  - ถ้า URL คือ /children/children01/ -> จะไม่มี 'ms' 
+*/
+const pathname = Astro.url.pathname;
+const segments = pathname.split('/').filter(Boolean); // แยกชิ้นส่วน URL ด้วย /
+const currentLang = segments[0] === 'ms' ? 'ms' : 'th'; // ถ้าขึ้นต้นด้วย ms ให้ใช้ภาษามาเลย์ นอกนั้นเป็นภาษาไทย
+
+// 💡 กำหนดคำแปลของหัวข้อระบบตามภาษา (i18n UI Labels)
+const labels = {
+  th: {
+    fullArabic: "บทดุอาอ์เต็ม",
+    audioTitle: "ฟังเสียงอ่าน:",
+    audioFallback: "เบราว์เซอร์ของคุณไม่รองรับการเล่นไฟล์เสียง",
+    translation: "ความหมายโดยรวม",
+    explanation: "คำอธิบายเพิ่มเติม"
+  },
+  ms: {
+    fullArabic: "Doa Penuh",
+    audioTitle: "Dengar Bacaan:",
+    audioFallback: "Pelayar web anda tidak menyokong mainan fail audio.",
+    translation: "Terjemahan Keseluruhan",
+    explanation: "Penerangan Tambahan"
+  }
+};
+
+// เลือกชุดคำแปลตามสถานะ URL ที่แกะได้
+const t = labels[currentLang];
+---
 
 {/* ส่วนที่ 1: อาหรับเต็มบท */}
 {data.fullArabic && (
-  <DuaSection title="บทดุอาอ์เต็ม" bgColor="bg-emerald-50" isArabic={true} content={data.fullArabic} />
+  <DuaSection title={t.fullArabic} bgColor="bg-emerald-50" isArabic={true} content={data.fullArabic} />
 )}
 
 {/* ส่วนที่เพิ่มใหม่: เครื่องเล่นเสียง */}
 {data.audio_url && (
   <div class="audio-player-container my-6 p-4 bg-white rounded-xl border border-slate-200 shadow-sm">
-    <p class="text-sm font-medium text-blue-800 mb-3 font-sans">ฟังเสียงอ่าน:</p>
+    <p class="text-sm font-medium text-blue-800 mb-3 font-sans">{t.audioTitle}</p>
     <audio controls class="w-full h-10 outline-none">
       <source src={data.audio_url} type="audio/mpeg" />
-      เบราว์เซอร์ของคุณไม่รองรับการเล่นไฟล์เสียง
+      {t.audioFallback}
     </audio>
   </div>
 )}
 
-{/* ส่วนที่ 2: ความหมายไทย */}
+{/* ส่วนที่ 2: ความหมายโดยรวม */}
 {data.fullTranslation && (
-  <DuaSection title="ความหมายโดยรวม" bgColor="bg-sky-50" content={data.fullTranslation} />
+  <DuaSection title={t.translation} bgColor="bg-sky-50" content={data.fullTranslation} />
 )}
 
 {/* ส่วนที่ 4: คำอธิบาย */}
 {data.explanation && (
-  <DuaSection title="คำอธิบายเพิ่มเติม" bgColor="bg-slate-100" content={data.explanation} />
+  <DuaSection title={t.explanation} bgColor="bg-slate-100" content={data.explanation} />
 )}
 
-{/* ส่วนที่ 3: คำต่อคำ (DuaGrid รับ data.words ไปจัดการเอง) */}
+{/* ส่วนที่ 3: คำต่อคำ */}
 <DuaGrid duaData={data.words} />
-

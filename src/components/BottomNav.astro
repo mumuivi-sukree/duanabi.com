@@ -1,30 +1,69 @@
 ---
-// ไม่ต้องใช้ Props ในที่นี้
+// src/components/BottomNav.astro
 const showHome = false;
+
+/* 💡 แกะรหัสภาษาจาก URL ปัจจุบัน เพื่อดูว่าผู้ใช้อยู่หน้าไทยหรือมาเลย์ */
+const pathname = Astro.url.pathname;
+const segments = pathname.split('/').filter(Boolean);
+const currentLang = segments[0] === 'ms' ? 'ms' : 'th';
+
+// 💡 ชุดคำแปลสำหรับตัวปุ่ม
+const labels = {
+  th: {
+    selectDua: "เลือกดุอาอฺ",
+    home: "หน้าแรก",
+    search: "ค้นหาดุอาอฺ",
+    contact: "ติดต่อเรา",
+    homeUrl: "/",
+    // ถ้าปัจจุบันอยู่หน้าไทย ปุ่มสลับภาษาจะขึ้นว่าเปลี่ยนไป MS และพาไปทางด่วน /ms/
+    langLabel: "Bahasa",
+    langIcon: "🇲🇾 MS",
+    langTargetUrl: `/ms${pathname}` 
+  },
+  ms: {
+    selectDua: "Pilih Doa",
+    home: "Utama",
+    search: "Carian Doa",
+    contact: "Hubungi Kami",
+    homeUrl: "/ms/",
+    // ถ้าปัจจุบันอยู่หน้ามาเลย์ ปุ่มสลับภาษาจะขึ้นว่าเปลี่ยนไป TH และพาตัดกลับไปหน้าหลัก
+    langLabel: "Bahasa",
+    langIcon: "🇹🇭 TH",
+    langTargetUrl: pathname.replace(/^\/ms\/?/, '/')
+  }
+};
+
+const t = labels[currentLang];
 ---
 
 <nav class="mobile-bottom-nav md:hidden fixed bottom-0 left-0 right-0 bg-white border-t border-slate-200 z-[100] flex justify-around items-center py-3 pb-safe shadow-[0_-4px_10px_rgba(0,0,0,0.05)]">
   
   <button id="bottom-menu-trigger" class="nav-item">
     <span class="icon">☰</span>
-    <span class="label">เลือกดุอาอฺ</span>
+    <span class="label">{t.selectDua}</span>
   </button>
 
 {showHome && (
-  <a href="/" class="nav-item"> 
+  <a href={t.homeUrl} class="nav-item"> 
     <span class="icon">🏠</span> 
-    <span class="label">หน้าแรก</span> 
+    <span class="label">{t.home}</span> 
   </a> 
 )}
+
   <button id="bottom-search-trigger" class="nav-item">
     <span class="icon">🔍</span>
-    <span class="label">ค้นหาดุอาอฺ</span>
+    <span class="label">{t.search}</span>
   </button>
 
+  {/* 💡 [เพิ่มใหม่] ปุ่มเปลี่ยนภาษาอัจฉริยะบนมือถือ กดแล้วสลับภาษาหน้าปัจจุบันทันที */}
+  <a href={t.langTargetUrl} class="nav-item">
+    <span class="icon">{t.langIcon}</span>
+    <span class="label">{t.langLabel}</span>
+  </a>
 
- <a href="mailto:mumuivi@gmail.com" class="nav-item">
+  <a href="mailto:mumuivi@gmail.com" class="nav-item">
     <span class="icon">📧</span>
-    <span class="label">ติดต่อเรา</span>
+    <span class="label">{t.contact}</span>
   </a>
    
 </nav>
@@ -55,7 +94,6 @@ const showHome = false;
 </script>
 
 <style>
-  /* 1. เพิ่มบรรทัดนี้เพื่อให้ Tailwind v4 รู้จักคลาส slate-600, flex, ฯลฯ */
   @reference "tailwindcss"; 
 
   .nav-item {
