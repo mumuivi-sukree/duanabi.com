@@ -103,7 +103,16 @@ export default defineConfig({
       ],
       customCss: ['./src/styles/custom.css'],
     }), 
-    sitemap(),
+//    sitemap(),
+    sitemap({
+      i18n: {
+        defaultLocale: 'th', // ภาษาหลักของเว็บคือภาษาไทย
+        locales: {
+          th: 'th',          // ถ้า path ไม่มี /ms/ นำหน้า ให้หมายถึงภาษา th
+          ms: 'ms',          // ถ้า path มี /ms/ นำหน้า ให้หมายถึงภาษา ms
+        },
+      },
+    }),
   ],
   devToolbar: { enabled: false },
   vite: {
