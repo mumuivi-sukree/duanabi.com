@@ -1,18 +1,49 @@
 ---
+// src/components/DuaCounter.astro
 import { getCollection } from 'astro:content';
 
 // ดึงข้อมูลทั้งหมดจาก docs
 const allDocs = await getCollection('docs');
 
-// กรองเอาเฉพาะไฟล์ที่ไม่ใช่หน้าแรก (index.mdx) เพื่อให้นับแค่บทดุอาอ์จริงๆ
-const duaCount = allDocs.filter(doc => doc.id !== 'index.mdx').length;
+// 💡 แยกนับจำนวนบทตามกลุ่มภาษา เพื่อให้แสดงสถิติได้แม่นยำและถูกต้อง
+// ภาษาไทย (root) -> id จะไม่ขึ้นต้นด้วย ms/
+// ภาษามาเลย์ (ms) -> id จะขึ้นต้นด้วย ms/
+const pathname = Astro.url.pathname;
+const isMalay = pathname.startsWith('/ms/') || pathname === '/ms';
+
+const duaCount = allDocs.filter(doc => {
+  // ไม่นับหน้าแรก (index.mdx)
+  if (doc.id === 'index.mdx' || doc.id === 'ms/index.mdx') return false;
+  
+  if (isMalay) {
+    return doc.id.startsWith('ms/');
+  } else {
+    return !doc.id.startsWith('ms/');
+  }
+}).length;
+
+// 💡 ชุดคำแปล 2 ภาษาสำหรับกล่องสถิติ
+const labels = {
+  th: {
+    title: "รวมบทดุอาอ์ที่รวบรวมแล้ว",
+    unit: "บท",
+    footer: "เราจะยังคงหาบทดุอาอ์มาลงในเพจเรื่อยๆ<br> โปรดติดตาม อินชาอัลลอฮฺ"
+  },
+  ms: {
+    title: "Jumlah Koleksi Doa yang Dikumpul",
+    unit: "Doa",
+    footer: "Kami akan terus menambah koleksi doa ke dalam laman ini dari semasa ke semasa.<br> Sila ikuti, Insya-Allah."
+  }
+};
+
+const t = isMalay ? labels.ms : labels.th;
 ---
 
 <div class="bg-orange-50 border border-orange-100 rounded-2xl p-6 my-8 text-center shadow-sm">
-  <div class="text-gray-600 text-sm mb-1 font-medium">รวมบทดุอาอ์ที่รวบรวมแล้ว</div>
+  <div class="text-gray-600 text-sm mb-1 font-medium">{t.title}</div>
   <div class="text-4xl font-bold text-orange-600 mb-1">
     {duaCount}
   </div>
-  <div class="text-gray-500 text-2xl">บท </div>
-  <div class="text-gray-500 text-1xl">เราจะยังคงหาบทดุอาอ์มาลงในเพจเรื่อยๆ<br> โปรดติดตาม อินชาอัลลอฮฺ</div>
+  <div class="text-gray-500 text-2xl mb-2">{t.unit}</div>
+  <div class="text-gray-500 text-sm leading-relaxed" set:html={t.footer}></div>
 </div>
