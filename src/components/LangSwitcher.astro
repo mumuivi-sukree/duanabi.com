@@ -13,12 +13,22 @@ const isMalay = pathname.startsWith('/ms/') || pathname === '/ms';
 
   <div class="custom-switcher-wrapper">
     <div class="custom-lang-button-group">
-      <a href={pathname.replace(/^\/ms\/?/, '/')} class={`lang-btn ${!isMalay ? 'active' : ''}`} title="ภาษาไทย">
+      <a 
+        href={isMalay ? pathname.replace(/^\/ms\/?/, '/') : pathname} 
+        class={`lang-btn ${!isMalay ? 'active' : ''}`} 
+        title="ภาษาไทย"
+      >
         <img src="https://flagcdn.com/w20/th.png" width="18" alt="TH" />
         <span>TH</span>
       </a>
+      
       <span class="divider">|</span>
-      <a href={`/ms${pathname.startsWith('/') ? pathname : '/' + pathname}`} class={`lang-btn ${isMalay ? 'active' : ''}`} title="Bahasa Melayu">
+      
+      <a 
+        href={isMalay ? pathname : `/ms${pathname.startsWith('/') ? pathname : '/' + pathname}`} 
+        class={`lang-btn ${isMalay ? 'active' : ''}`} 
+        title="Bahasa Melayu"
+      >
         <img src="https://flagcdn.com/w20/my.png" width="18" alt="MS" />
         <span>MS</span>
       </a>
@@ -36,11 +46,10 @@ const isMalay = pathname.startsWith('/ms/') || pathname === '/ms';
     display: inline-flex;
     align-items: center;
   }
-  /* สร้างกล่องรูปเล่มปุ่มกดคู่ขนานเรียบหรูสไตล์เดียวกับ grain-sure.com */
   .custom-lang-button-group {
     display: flex;
     align-items: center;
-    background-color: #f1f5f9; /* พื้นหลังเทามนจาง */
+    background-color: #f1f5f9;
     border: 1px solid #cbd5e1;
     padding: 0.2rem 0.4rem;
     border-radius: 6px;
@@ -54,7 +63,7 @@ const isMalay = pathname.startsWith('/ms/') || pathname === '/ms';
     text-decoration: none !important;
     font-size: 11px;
     font-weight: bold;
-    color: #64748b !important; /* สีเทาปกติ */
+    color: #64748b !important;
     padding: 0.1rem 0.25rem;
     border-radius: 4px;
     transition: all 0.2s;
@@ -63,9 +72,8 @@ const isMalay = pathname.startsWith('/ms/') || pathname === '/ms';
     border-radius: 2px;
     box-shadow: 0 1px 2px rgba(0,0,0,0.1);
   }
-  /* ไฮไลต์ปุ่มภาษาปัจจุบันที่กำลังเปิดใช้งานอยู่ให้เด่นชัด */
   .lang-btn.active {
-    color: #1e40af !important; /* สีน้ำเงินสไตล์เดียวกับโลโก้เว็บ */
+    color: #1e40af !important;
     background-color: #ffffff;
     box-shadow: 0 1px 3px rgba(0,0,0,0.05);
   }

@@ -3,7 +3,7 @@ export const duaData = {
   "fullArabic": `\
  <span class="text-emerald-600">رَّبِّ اغْفِرْ لِي </span>\
  <span class="text-yellow-500">وَلِوَالِدَيَّ </span> \
- <span class="text-pink-600">وَلِمَن دَخَل้ بَيْتِيَ مُؤْمِنًا </span> \
+ <span class="text-pink-600">وَلِمَن دَخَل بَيْتِيَ مُؤْمِنًا </span> \
  <span class="text-cyan-600">وَلِلْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ </span> \
  <span class="block text-right text-lg text-slate-500">\(นูห์ อายะฮ์ที่ 28)<\span> 
   `,
