@@ -1,26 +1,26 @@
 export const duaData = {
   "title": "Doa Sebelum Tidur Untuk Melunaskan Hutang dan Menghilangkan Kefakiran (Doa yang Agung dan Mendalam)",
   "fullArabic": `\
-• <span class="text-emerald-600">اللَّهُمَّ رَبَّ السَّมَاوَاتِ</span> \
+• <span class="text-emerald-600">اللَّهُمَّ رَبَّ السَّمَاوَاتِ</span> \
 <span class="text-yellow-500">وَرَبَّ الْأَرْضِ</span> 
 • <span class="text-pink-600">وَرَبَّ الْعَرْشِ الْعَظِيمِ ،</span> 
 • <span class="text-cyan-600">رَبَّنَا وَرَبَّ كُلِّ شَيْءٍ ،</span> 
 • <span class="text-stone-600">فَالِقَ الْحَبِّ وَالنَّوَى ،</span> 
 • <span class="text-blue-800">وَمُنْزِلَ التَّوْرَاةِ</span> \
-<span class="text-lime-500">وَالْإِنْجِيلِ وَالْفُرْกَانِ ،</span> 
+<span class="text-lime-500">وَالْإِنْجِيلِ وَالْفُرْقَانِ ،</span> 
 • <span class="text-fuchsia-600">أَعُوذُ بِكَ</span> \
 <span class="text-green-500">مِنْ شَرِّ كُلِّ شَيْءٍ</span> \
 <span class="text-amber-600">أَنْتَ آخِذٌ بِنَاصِيَتِهِ ،</span>
 • <span class="text-gray-500">اللَّهُمَّ أَنْتَ الْأَوَّلُ</span> \
 <span class="text-indigo-500">فَلَيْسَ قَبْلَكَ شَيْءٌ ،</span>
 • <span class="text-red-500">وَأَنْتَ الْآخِرُ </span> \
-<span class="text-emerald-600">فَلَيْสَ بَعْدَكَ شَيْءٌ ،</span>
+<span class="text-emerald-600">فَلَيْسَ بَعْدَكَ شَيْءٌ ،</span>
 • <span class="text-yellow-500">وَأَنْتَ الظَّاهِرُ </span> \
-<span class="text-pink-600">فَلَيْسَ فَوْقَكَ شَيْءٌ ،</span>
+<span class="text-pink-600">فَلَيْسَ فَوْقَكَ شَيْءٌ ،</span> 
 • <span class="text-cyan-600">وَأَنْتَ الْبَاطِنُ </span> \
-<span class="text-stone-600">فَلَيْسَ دُونَكَ شَيْءٌ ،</span>
-• <span class="text-blue-800">اقْضِ عَنَّا الدَّيْنَ</span> \
-<span class="text-fuchsia-600">وَأَغْنِنَا مِنَ الْفَقْرِ</span>
+<span class="text-stone-600">فَلَيْسَ دُونَكَ شَيْءٌ ،</span> 
+• <span class="text-blue-800">اقْضِ عَنَّا الدَّيْنَ </span> 
+• <span class="text-lime-500">وَأَغْنِنَا مِنَ الْفَقْرِ</span> 
 <span class="block text-right text-lg text-slate-500">(Direkodkan oleh Muslim: 2713)</span>
 `,
   "fullTranslation": `\
@@ -56,7 +56,7 @@ export const duaData = {
   "audio_url": "https://assets.duanabi.com/audio/relief/relief11.mp3",
   "words": [
     { "ar": "اللَّهُمَّ", "read": "Allahumma", "mean": "Ya Allah" },
-    { "ar": "رَبَّ สَّمَاوَاتِ", "read": "Rabba samawati", "mean": "Tuhan bagi seluruh langit" },
+    { "ar": "رَبَّ السَّمَاوَاتِ السَّبْعِ", "read": "Rabba samawati", "mean": "Tuhan bagi seluruh langit" },
     { "ar": "وَرَبَّ الْأَرْضِ", "read": "wa Rabbal ardi", "mean": "dan Tuhan bagi bumi" },
     { "ar": "وَرَبَّ الْعَرْشِ الْعَظِيمِ", "read": "wa Rabbal 'arsyil 'azim", "mean": "dan Tuhan bagi Arasy yang agung" },
     { "ar": "رَبَّنَا", "read": "Rabbana", "mean": "Tuhan kami" },
@@ -71,7 +71,7 @@ export const duaData = {
     { "ar": "أَنْتَ الْأَوَّلُ", "read": "antal Awwalu", "mean": "Engkaulah Yang Awal (paling pertama)" },
     { "ar": "فَلَيْسَ قَبْلَكَ شَيْءٌ", "read": "falaisa qablaka syai'", "mean": "maka tiada sesuatu pun sebelum-Mu" },
     { "ar": "وَأَنْتَ الْآخِرُ", "read": "wa antal Akhiru", "mean": "dan Engkaulah Yang Akhir (paling terakhir)" },
-    { "ar": "فَلَيْสَ بَعْدَكَ شَيْءٌ", "read": "falaisa ba'daka syai'", "mean": "maka tiada sesuatu pun selepas-Mu" },
+    { "ar": "فَلَيْسَ بَعْدَكَ شَيْءٌ", "read": "falaisa ba'daka syai'", "mean": "maka tiada sesuatu pun selepas-Mu" },
     { "ar": "وَأَنْتَ الظَّاهِرُ", "read": "wa antaz Zahiru", "mean": "dan Engkaulah Yang Zahir (Maha Nyata / Tiada yang menyamai-Mu)" },
     { "ar": "فَلَيْسَ فَوْقَكَ شَيْءٌ", "read": "falaisa fauqaka syai'", "mean": "maka tiada sesuatu pun di atas-Mu" },
     { "ar": "وَأَنْتَ الْبَاطِنُ", "read": "wa antal Batinu", "mean": "dan Engkaulah Yang Batin (Maha Tersembunyi / Maha Dekat)" },

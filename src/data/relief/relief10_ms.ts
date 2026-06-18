@@ -1,6 +1,6 @@
 export const duaData = {
   "title": "Doa Melunaskan Hutang (Memohon Rezeki Halal dan Kecukupan Daripada-Nya)",
-  "fullArabic": `\
+  "fullArabic": `\ 
  <span class="text-emerald-600">اللَّهُمَّ اكْفِنِي</span>\
  <span class="text-yellow-500">بِحَلَالِكَ </span> \
  <span class="text-pink-600"> عَنْ حَرَامِكَ</span> 
@@ -32,6 +32,6 @@ export const duaData = {
     { "ar": "عَنْ حَرَامِكَ", "read": "‘an haramika", "mean": "daripada perkara yang haram (perkara yang dilarang) oleh-Mu" },
     { "ar": "وَأَغْنِنِي", "read": "wa aghnini", "mean": "dan kayakanlah aku / jadikanlah aku seorang yang berkecukupan" },
     { "ar": "بِفَضْلِكَ", "read": "bi-fadlika", "mean": "dengan limpah kurnia-Mu / atas kemurahan-Mu" },
-    { "ar": "عَمَّนْ سِوَاكَ", "read": "‘amman siwaka", "mean": "daripada bergantung kepada sesiapa pun selain daripada-Mu (tidak perlu mengharap orang lain)" }
+    { "ar": "عَمَّنْ سِوَاكَ", "read": "‘amman siwaka", "mean": "daripada bergantung kepada sesiapa pun selain daripada-Mu (tidak perlu mengharap orang lain)" }
   ]
 }

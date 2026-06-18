@@ -18,12 +18,12 @@ export const duaData = {
   Ini kerana ia bertindak sebagai penawar rohani yang berkuasa membina semula kesedaran serta ketetapan minda hamba untuk bersyukur, di samping meyakini bahawa Allah SWT sentiasa menyembuhkan dan merawat setiap kelukaan hati hamba-Nya.
   `,
   "audio_url": "https://assets.duanabi.com/audio/relief/relief05.mp3",
-  "words": [
-    { "ar": "الْحَمْدُ لِلَّهِ", "read": "Alhamdu lillah", "mean": "Segala puji bagi Allah / Segala pujian milik Allah" },
+"words": [
+    { "ar": "الْحَمْدُ لِلَّهِ", "read": "Alhamdu lillah", "mean": "Segala puji bagi Allah / Segala pujian milik Allah" },
     { "ar": "الَّذِي", "read": "allazi", "mean": "yang / yang mana (kata penghubung)" },
     { "ar": "أَذْهَبَ", "read": "azhaba", "mean": "Dia telah menghilangkan / telah melenyapkan" },
-    { "ar": "عَنَّا", "read": "'anna", "mean": "daripada kami /ให้พ้นจากพวกเรา" },
-    { "ar": "الْحَزَنَ", "read": "al-hazana", "mean": "kesedihan / kedukaan / ความเศร้าโศก" },
+    { "ar": "عَنَّا", "read": "'anna", "mean": "daripada kami / daripada diri kami" },
+    { "ar": "الْحَزَنَ", "read": "al-hazana", "mean": "kesedihan / kedukaan / dukacita" },
     { "ar": "إِنَّ", "read": "inna", "mean": "sesungguhnya" },
     { "ar": "رَبَّنَا", "read": "rabbana", "mean": "Tuhan kami" },
     { "ar": "لَغَفُورٌ", "read": "laghafurun", "mean": "Maha Pengampun" },

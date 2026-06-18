@@ -32,14 +32,14 @@ export const duaData = {
 <span class="text-red-500">dan penindasan (kekerasan) orang lelaki."</span>\
 <span class="block text-right text-lg text-slate-500">(Direkodkan oleh al-Bukhari: 6363)</span>
 `,
-  "explanation": `\
-  Ia merupakan doa yang amat masyhur dan agung daripada hadis yang direkodkan oleh Imam al-Bukhari (Nombor Hadis: 6363). Doa ini merangkumi permohonan perlindungan daripada lapan perkara negatif yang boleh merosakkan kesejahteraan hidup manusia fizikal dan mental. \
-  Baginda Nabi ﷺ sentiasa mengamalkan doaนี้เพื่อขอให้พ้นจากความกังวลในอนาคต (الْهَمّ) ความเศร้าเสียใจในอดีต (الْحَزَن) ความไม่มีกำลังใจหรือความอ่อนแอ (الْعَجْز) และความขี้เกียจ (الْكَسَل) \
-  รวมถึงคุ้มครองให้พ้นจากความขลาดกลัว (الْجُبْن) ความตระหนี่ถี่เหนียว (الْبُخْل) และปัญหาใหญ่ที่ผู้เป็นเสาหลักมักเจอ คือ การเป็นหนี้สินท่วมตัว (غَلَبَةِ الدَّيْن) และการถูกข่มเหงรังแกจากผู้มีอำนาจ (قَهْرِ الرِّجَال). \
-  Doa ini amat sesuai diamalkan pada setiap waktu pagi dan petang sebagai perisai rohaniเพื่อเสริมสร้างความมั่นคงและพลังใจในการดำเนินชีวิตและแบกรับหน้าที่สำคัญในทุกๆ ด้าน
+"explanation": `\
+  Ia merupakan doa yang amat masyhur dan agung daripada hadis yang direkodkan oleh Imam al-Bukhari (Nombor Hadis: 6363). Doa ini merangkumi permohonan perlindungan daripada lapan perkara negatif yang boleh merosakkan kesejahteraan hidup manusia dari segi fizikal dan mental. \
+  Baginda Nabi ﷺ sentiasa mengamalkan doa ini untuk memohon perlindungan daripada kebimbangan pada masa hadapan (الْهَمّ), kesedihan atas masa lalu (الْحَزَن), kelemahan jiwa atau ketiadaan semangat (الْعَجْซ), dan sifat malas (الْكَسَل). \
+  Di samping itu, ia juga melindungi daripada sifat penakut (الْجُبْن), sifat bakhil atau kedekut (الْبُخْل), serta masalah besar yang sering dihadapi oleh para ketua keluarga iaitu bebanan hutang yang menimbun (غَلَبَةِ الدَّيْن) dan penindasan atau kezaliman daripada orang yang berkuasa (قَهْرِ الرِّجَال). \
+  Doa ini amat sesuai diamalkan pada setiap waktu pagi dan petang sebagai perisai rohani untuk memperkukuh ketetapan jiwa dan memberi kekuatan mental dalam menjalani kehidupan serta memikul tanggungjawab penting dalam setiap aspek.
   `,
   "audio_url": "https://assets.duanabi.com/audio/relief/relief07.mp3",
-  "words": [
+"words": [
     { "ar": "اللَّهُمَّ", "read": "Allahumma", "mean": "Ya Allah" },
     { "ar": "إِنِّي", "read": "inni", "mean": "sesungguhnya aku" },
     { "ar": "أَعُوذُ", "read": "a'uzu", "mean": "aku memohon perlindungan" },
@@ -54,7 +54,7 @@ export const duaData = {
     { "ar": "مِنَ", "read": "mina", "mean": "daripada" },
     { "ar": "الْعَجْزِ", "read": "al-'ajzi", "mean": "kelemahan / ketidakupayaan" },
     { "ar": "وَ", "read": "wa", "mean": "dan" },
-    { "ar": "الْكَسَلِ", "read": "al-kasali", "mean": "sifat malas /ความเกียจคร้าน" },
+    { "ar": "الْكَسَلِ", "read": "al-kasali", "mean": "sifat malas / kemalasan" },
     { "ar": "وَ", "read": "wa", "mean": "dan" },
     { "ar": "أَعُوذُ", "read": "a'uzu", "mean": "aku memohon perlindungan" },
     { "ar": "بِكَ", "read": "bika", "mean": "dengan-Mu / kepada-Mu" },
@@ -66,10 +66,10 @@ export const duaData = {
     { "ar": "أَعُوذُ", "read": "a'uzu", "mean": "aku memohon perlindungan" },
     { "ar": "بِكَ", "read": "bika", "mean": "dengan-Mu / kepada-Mu" },
     { "ar": "مِنْ", "read": "min", "mean": "daripada" },
-    { "ar": "غَلَبَةِ", "read": "ghalabati", "mean": "cengkaman / bebananที่เอาชนะไม่ได้" },
-    { "ar": "الدَّيْنِ", "read": "ad-daini", "mean": "hutang / หนี้สิน" },
+    { "ar": "غَلَبَةِ", "read": "ghalabati", "mean": "cengkaman / bebanan yang tidak termampu ditanggung" },
+    { "ar": "الدَّيْنِ", "read": "ad-daini", "mean": "hutang / bebanan hutang" },
     { "ar": "وَ", "read": "wa", "mean": "dan" },
-    { "ar": "قَهْرِ", "read": "qahri", "mean": "penindasan / paksaan / การข่มเหง" },
-    { "ar": "الرِّجَالِ", "read": "ar-rijali", "mean": "orang-orang lelaki /ผู้มีอำนาจศัตรู" }
+    { "ar": "قَهْرِ", "read": "qahri", "mean": "penindasan / paksaan / kezaliman" },
+    { "ar": "الرِّجَالِ", "read": "ar-rijali", "mean": "orang-orang lelaki (yang berkuasa / musuh)" }
   ]
 }

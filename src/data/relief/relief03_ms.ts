@@ -4,7 +4,7 @@ export const duaData = {
  <span class="text-stone-600">رَبَّنَا أَفْرِغْ عَلَيْنَا صَبْرًا </span> \
  <span class="text-blue-800">وَثَبِّتْ أَقْدَامَنَا  </span> \
  <span class="text-lime-500">وَانْصُرْنَا عَلَى </span> \
- <span class="text-fuchsia-600">الْقَوْมِ الْكَافِرِينَ </span>
+ <span class="text-fuchsia-600"> الْقَوْمِ الْكَافِرِينَ </span>
 <span class="block text-right text-lg text-slate-500">(Surah al-Baqarah: 250)</span>
 `,
   "fullTranslation": `\
@@ -23,7 +23,7 @@ export const duaData = {
   `,
   "audio_url": "https://assets.duanabi.com/audio/relief/relief03.mp3",
   "words": [
-    { "ar": "رَبَّนَا", "read": "Rabbana", "mean": "Wahai Tuhan kami" },
+    { "ar": "رَبَّنَا", "read": "Rabbana", "mean": "Wahai Tuhan kami" },
     { "ar": "أَفْرِغْ", "read": "afrigh", "mean": "limpahkanlah / curahkanlah (hingga penuh)" },
     { "ar": "عَلَيْنَا", "read": "'alaina", "mean": "ke atas kami" },
     { "ar": "صَبْرًا", "read": "sobran", "mean": "kesabaran" },

@@ -4,15 +4,15 @@ export const duaData = {
  <span class="text-emerald-600">رَبَّنَا لَا تُؤَاخِذْنَآ </span>\
  <span class="text-yellow-500">إِن نَّسِينَآ أَوْ أَخْطَأْنَا ۚ </span> \
  <span class="text-pink-600">رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَآ </span>\ \
- <span class="text-cyan-600">إِصْرًۭา كَمَا حَمَلْتَهُۥ </span> \
+ <span class="text-cyan-600">إِصْرًۭا كَمَا حَمَلْتَهُۥ </span> \
  <span class="text-stone-600">عَلَى ٱلَّذِينَ مِن قَبْلِنَا ۚ </span> \
  <span class="text-blue-800">رَبَّنَا وَلَا تُحَمِّلْنَا </span> \
- <span class="text-lime-500">มَا لَا طَاقَةَ لَنَا بِهِۦ ۖ </span> \
+ <span class="text-lime-500">مَا لَا طَاقَةَ لَنَا بِهِۦ ۖ </span> \
  <span class="text-fuchsia-600">وَٱعْفُ عَنَّا </span>\
  <span class="text-green-500">وَٱغْفِرْ لَنَا </span>\
  <span class="text-amber-600">وَٱرْحَمْنَآ ۚ</span>\
  <span class="text-gray-500">أَنتَ مَوْلَىٰنَا </span>\
- <span class="text-violet-600">فَٱنصُرْنَا عَلَى ٱلْقَوْมِ ٱلْكَٰفِرِينَ</span>
+ <span class="text-violet-600">فَٱنصُرْنَا عَلَى  ٱلْقَوْمِ ٱلْكَٰفِرِينَ</span>
 <span class="block text-right text-lg text-slate-500">(Surah al-Baqarah: 286)</span>
 `,
   "fullTranslation": `\
@@ -36,7 +36,7 @@ export const duaData = {
   Sesiapa yang membaca dua ayat terakhir Surah al-Baqarah pada waktu malam, Nabi Muhammad ﷺ menjelaskan bahawa ayat-ayat tersebut sudah cukupดคุ้มครองและให้ความพอเพียงแก่ dirinya daripada segala keburukan.
   `,
   "audio_url": "https://assets.duanabi.com/audio/relief/relief04.mp3",
-  "words": [
+"words": [
     { "ar": "رَبَّنَا", "read": "Rabbana", "mean": "Wahai Tuhan kami" },
     { "ar": "لَا تُؤَاخِذْنَآ", "read": "la tu'akhizna", "mean": "Janganlah Engkau menghukum kami / jangan menuntut kami" },
     { "ar": "إِن نَّسِينَآ", "read": "in nasiina", "mean": "jika kami terlupa" },
@@ -49,7 +49,7 @@ export const duaData = {
     { "ar": "حَمَلْتَهُۥ", "read": "hamaltahu", "mean": "Engkau telah bebankannya" },
     { "ar": "عَلَى", "read": "'ala", "mean": "ke atas / kepada" },
     { "ar": "ٱلَّذِينَ", "read": "allazina", "mean": "orang-orang yang" },
-    { "ar": "มِن قَبْلِنَا", "read": "min qablina", "mean": "sebelum kami / terdahulu daripada kami" },
+    { "ar": "มิน قَبْلِنَا", "read": "min qablina", "mean": "sebelum kami / terdahulu daripada kami" },
     { "ar": "رَبَّنَا", "read": "Rabbana", "mean": "Wahai Tuhan kami" },
     { "ar": "وَ", "read": "wa", "mean": "dan" },
     { "ar": "لَا تُحَمِّلْنَا", "read": "la tuhammilna", "mean": "janganlah Engkau pikulkan ke atas kami" },
@@ -58,15 +58,15 @@ export const duaData = {
     { "ar": "لَنَا", "read": "lana", "mean": "bagi kami" },
     { "ar": "بِهِۦ", "read": "bihi", "mean": "dengan hal itu / memikulnya" },
     { "ar": "وَٱعْفُ", "read": "wa'fu", "mean": "dan maafkanlah / padamkanlah dosa" },
-    { "ar": "عَنَّا", "read": "‘anna", "mean": "daripada kami /แก่พวกเรา" },
+    { "ar": "عَنَّا", "read": "‘anna", "mean": "daripada kami / daripada diri kami" },
     { "ar": "وَٱغْفِرْ", "read": "waghfir", "mean": "dan ampunkanlah" },
     { "ar": "لَنَا", "read": "lana", "mean": "bagi kami" },
     { "ar": "وَٱرْحَمْنَآ", "read": "warhamna", "mean": "dan rahmatilah kami" },
     { "ar": "أَنتَ", "read": "anta", "mean": "Engkaulah" },
-    { "ar": "مَوْلَىٰنَا", "read": "maulana", "mean": "Pelindung kami / Pemimpin kami" },
+    { "ar": "มَوْلَىٰنَا", "read": "maulana", "mean": "Pelindung kami / Pemimpin kami" },
     { "ar": "فَٱنصُرْنَا", "read": "fansurna", "mean": "oleh itu, tolonglah kami / menangkanlah kami" },
     { "ar": "عَلَى", "read": "'ala", "mean": "ke atas / terhadap" },
     { "ar": "ٱلْقَوْมِ", "read": "al-qaumi", "mean": "kaum / golongan" },
-    { "ar": "ٱلْكَٰفِرِينَ", "read": "al-kafirin", "mean": "orang-orang kafir /ที่ปฏิเสธศัตรู" }
+    { "ar": "ٱلْكَٰفِرِينَ", "read": "al-kafirin", "mean": "orang-orang kafir / yang mengingkari kebenaran" }
   ]
 }

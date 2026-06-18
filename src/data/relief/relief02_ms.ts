@@ -21,12 +21,12 @@ export const duaData = {
   "audio_url": "https://assets.duanabi.com/audio/relief/relief02.mp3",
   "words": [
     { "ar": "رَبِّ", "read": "Rabbi", "mean": "Wahai Tuhanku / Ya Tuhanku" },
-    { "ar": "احْคُم", "read": "uhkum", "mean": "berikanlah keputusan / hukumlah / tetapkanlah" },
-    { "ar": "بِالْحَقِّ", "read": "bil-haqqi", "mean": "dengan adil /ด้วยความจริง" },
+    { "ar": "احْكُم", "read": "uhkum", "mean": "berikanlah keputusan / hukumlah / tetapkanlah" },
+    { "ar": "بِالْحَقِّ", "read": "bil-haqqi", "mean": "dengan adil / dengan kebenaran hakiki" },
     { "ar": "وَ", "read": "wa", "mean": "dan / serta" },
     { "ar": "رَبُّنَا", "read": "rabbuna", "mean": "Tuhan kami" },
-    { "ar": "الرَّحْمَٰنُ", "read": "ar-Rahman", "mean": "Yang Maha Pemurah / พระผู้ทรงกรุณาปรานี" },
-    { "ar": "الْمُسْتَعَانُ", "read": "al-musta'anu", "mean": "Yang memohon pertolongan / tempat meminta pertolongan" },
+    { "ar": "الرَّحْمَٰنُ", "read": "ar-Rahman", "mean": "Yang Maha Pemurah / Maha Pengasih" },
+    { "ar": "الْمُسْتَعَانُ", "read": "al-musta'anu", "mean": "Yang dipohonkan pertolongan / tempat meminta pertolongan" },
     { "ar": "عَلَىٰ", "read": "'ala", "mean": "terhadap / atas" },
     { "ar": "مَا", "read": "ma", "mean": "apa yang" },
     { "ar": "تَصِفُونَ", "read": "tasifuna", "mean": "kamu sifatkan / kamu tuduhkan (perkatakan)" }
