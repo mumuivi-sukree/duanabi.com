@@ -1,0 +1,26 @@
+---
+title: "Doa Pada Hari Arafah"
+description: "Sebaik-baik doa ialah doa pada hari Arafah. Tiada hari yang Allah membebaskan hamba-hamba-Nya daripada api neraka lebih banyak daripada hari Arafah."
+head:
+  - tag: meta
+    attrs:
+      property: "og:title"
+      content: "Doa Pada Hari Arafah"
+  - tag: meta
+    attrs:
+      property: "og:description"
+      content: "Sebaik-baik doa ialah doa pada hari Arafah. Tiada hari yang Allah membebaskan hamba-hamba-Nya daripada api neraka lebih banyak daripada hari Arafah."
+tableOfContents: false
+---
+
+import DuaPageMaster from '../../../../components/DuaPageMaster-ts.astro';
+import DuaPagination from '../../../../components/DuaPagination.astro';
+import {duaData} from '../../../../data/goodtime/goodtime01_ms.ts';
+
+<DuaPageMaster data={duaData} />
+
+{/* 👈 วางปุ่มนำทางไว้ด้านล่างสุด พร้อมระบุลิงก์ */}
+<DuaPagination 
+  prevUrl="" 
+  nextUrl=""
+/>
