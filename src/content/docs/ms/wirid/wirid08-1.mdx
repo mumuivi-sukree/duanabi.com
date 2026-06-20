@@ -1,0 +1,26 @@
+---
+title: "Wirid 8-1: Ucapan Tasbih"
+description: "Wirid zikir mengingati Allah dengan pelbagai kalimah, Bahagian 8-1: Ucapan Tasbih سُبْحَانَ اللهِ Maha Suci Allah sebanyak 33 kali."
+head:
+  - tag: meta
+    attrs:
+      property: "og:title"
+      content: "Wirid 8-1: Ucapan Tasbih"
+  - tag: meta
+    attrs:
+      property: "og:description"
+      content: "Wirid zikir mengingati Allah dengan pelbagai kalimah, Bahagian 8-1: Ucapan Tasbih سُبْحَانَ اللهِ Maha Suci Allah sebanyak 33 kali."
+tableOfContents: false
+---
+
+import DuaPageMaster from '../../../../components/DuaPageMaster-ts.astro';
+import DuaPagination from '../../../../components/DuaPagination.astro';
+import {duaData} from '../../../../data/wirid/wirid08-1_ms.ts';
+
+<DuaPageMaster data={duaData} />
+
+{/* 👈 วางปุ่มนำทางไว้ด้านล่างสุด พร้อมระบุลิงก์ */}
+<DuaPagination 
+  prevUrl="/wirid/wirid07-3/" 
+  nextUrl="/wirid/wirid08-2/"
+/>
