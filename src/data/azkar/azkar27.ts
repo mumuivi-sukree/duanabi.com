@@ -11,7 +11,6 @@ export const duaData = {
 <span class="text-fuchsia-600">وَعَنْ شِمَالِي، </span>\
 <span class="text-cyan-600">وَمِنْ فَوْقِي، </span>\
 <span class="text-amber-800">وَأَعُوذُ بِعَظَمَتِكَ أَنْ أُغْتَالَ مِنْ تَحْتِي</span>\
-
 `,
   "fullTranslation": `\
 • <span class="text-emerald-600">โอ้อัลลอฮฺ แท้จริงฉันขอต่อพระองค์ซึ่งการอภัยโทษและสุขภาวะที่ดีทั้งในโลกนี้และโลกหน้า </span>\
